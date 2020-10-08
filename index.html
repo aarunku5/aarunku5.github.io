@@ -1,16 +1,770 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en" dir="ltr">
-   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
- <link rel="stylesheet" href="style.css">
-   </head>
-   <body style="background-color:AliceBlue";>  
-   </body>
+
+<head>
+<title>A Visual Exploration of Fair Evaluation for ML- Bridging the Gap Between Research and the Real World</title>
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700"
+      rel="stylesheet" nonce="_s6NB5uB8WL8CMjXQBEfuw" /><style>
+
+
+body {
+  font: 11pt Roboto;
+  font-weight: 300;
+  margin-left: 60px;
+  margin-top:20px;
+  margin-bottom: 80px;
+}
+td {
+  font-size: 10pt;
+}
+ul {
+  line-height: 180%;
+}
+h1 {
+  font-size: 30px;
+  font-weight: 300;
+}
+.thin {
+  width: 170px;
+}
+.annotation {
+  color: #a00;
+  font-size: 10pt;
+  visibility: hidden;
+  stroke: #d00;
+  stroke-width: 5;
+  fill:none;
+}
+.prose {
+  width: 800px;
+  margin-bottom: 60px;
+  margin-left:220px;
+}
+.demo {
+  font: 10pt;
+  color: #fff;
+  padding: 6px;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: none;
+  margin-bottom: 6px;
+  width: 140px;
+  background: #a00;
+}
+.broken {
+  color: #f00;
+}
+.readout {
+  font-weight: 700;
+}
+.title {
+  font-weight: 700;
+}
+.big-label {
+  font-size: 16pt;
+}
+.figure-title {
+  font-size: 24px;
+  font-weight: 400;
+}
+.figure-caption {
+  font-weight:100;
+  margin-bottom: 20px;
+}
+.histogram-axis text {
+  font: 9pt Roboto;
+  font-weight: 100;
+  color: #000;
+}
+.histogram-legend {
+  margin-top: 16px;
+}
+.instructions {
+  font-weight: 700;
+}
+.correctness-label {
+  font-size: 9pt;
+  font-weight: 700;
+  color: #000;
+}
+.explanation {
+  font-size: 9pt;
+  font-weight: 100;
+  color: #ccc;
+}
+.pie-label {
+  font-size: 9pt;
+  font-weight: 700;
+  color: #000;
+}
+.pie-number {
+  font-size: 9pt;
+  font-weight: 300;
+  color: #000;
+}
+.legend-label {
+  font-size: 8pt;
+  font-weight: 300;
+  color: #666;
+}
+.bold-label {
+  font-size: 10pt;
+  font-weight: 700;
+}
+.margin-text {
+  font-size: 9pt;
+  font-weight: 300;
+  color: #666;
+}
+.margin-bold {
+  font-size: 9pt;
+  font-weight: 700;
+}
+.domain {
+  display: none;
+}
+.profit-readout {
+  margin-left: 10px;
+}
+
+#profit-title {
+  font-size: 18pt;
+}
+#total-profit {
+  font-size: 18pt;
+  font-weight: 700;
+}
+#top-sidebar {
+  position: absolute;
+  left: 850px;
+  width: 200px;
+  font-size: 10pt;
+  color: #555
+}
+
+</style>
+</head>
+  
+<body>
+<!-- CODE -->
+
+  <h1 id="title-section" style="position:relative;left:220px;">A Visual Exploration of Fair Evaluation for Machine Learning </h1>
+  <h2 id="title-section" style="position:relative;top:-15px;left:220px;">Bridging the Gap Between Research and the Real World</h2>
+
+  <div class="prose" style="position:relative">
+  <p><p>
+  <div id="top-sidebar">
+    By Anjana Arunkumar, Swaroop Mishra, and Chris Bryan.
+    <p>
+    This page is a companion to <a href="https://arxiv.org/abs/2007.06898">
+    a line of work</a>, which introduces new fair and robust evaluation 
+    metrics to encourage model generalization.
+  </div>
+
+  <p>
+    In artificial intelligence (AI) and machine learning (ML), <strong>leaderboards</strong> provide rankings of models trained for a given task. 
+    Generally, leaderboards provide one or more datasets (also known as a <strong>benchmark</strong>), which models must use to solve some kind of 
+    classification or regression task <a href="https://leaderboard.allenai.org">(such as sentiment analysis and question answering)</a></p>
+  <p>
+    Benchmarks are often split into three subsets, called <em>train, dev,</em> and <em>test</em>, with <em>train</em> and <em>dev</em> datasets being 
+    made publicly available. If you want to develop a new model to try and attain a place on a leaderboard, you train the model using 
+    the <em>train</em> subset and evaluate its performance using the <em>dev</em> subset. You upload the model code to the leaderboard's submission site 
+    where moderators test it using the non-public <em>test</em> subset. Based on this performance, the model might appear on the leaderboard in a ranked position.
+  </p>
+  <p>
+    For example, here is a screenshot of a <a href="https://leaderboard.allenai.org/physicaliqa/submissions/public">leaderboard from Allen AI</a> for August 2020. 
+    Listed are models in decreasing order of accuracy on a question answering dataset called Physical IQA. Question answering is the task of building systems to 
+    automatically answer questions posed by humans in a natural language. Physical IQA contains questions regarding our knowledge about the Physical World. 
+    <p>
+
+
+  </div><!-- prose -->
+
+  <table style="position:relative;top:-20px;">
+     <tr>
+      <td>&nbsp;</td>
+      <td colspan=3>
+          <div class="figure-title" style="margin-bottom:20px;margin-left:20px;">
+            Physical IQA - Physical Interaction QA
+          </div>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top">
+        <table>
+          <tr><td width="200" valign="top" align="right">
+            <div style="margin-top:0px">
+            <span class="margin-bold">Main Leaderboard</span><br>
+            <span class="margin-text">
+              Models are listed in decreasing order of accuracy on Physical IQA
+            </span>
+            </div>
+          </td></tr>
+          <tr><td width="200" valign="bottom" align="right">
+            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+            <div style="margin-top:160px">
+              <span class="margin-bold">Human Accuracy</span><br/>
+
+            <span class="margin-text">
+              <strong><em>Human accuracy</em></strong> for a dataset is measured by asking a set of people to answer the same test set questions provided to the model
+              <br/><br/><br/>
+            </span>
+            <span class="margin-bold">Line Chart</span><br/>
+            <span class="margin-text">
+            Included on the Allen AI page, this shows the accuracy of models submitted over time, with <strong><em>human accuracy</em></strong> as the standard to beat
+            </span>
+            </div>
+          </td></tr>
+          <tr><td width="200" valign="bottom" align="right">
+            <div style="margin-top:30px">
+            </div>
+          </td></tr>
+
+        </table>
+      </td>
+
+      <td valign="top">
+        <div id="plain-histogram0" style="position: relative;margin-left: 5px;">
+          <img src="img/DARPA.png" style="max-width: 1200px;border:solid;border-width:thin;"></img>
+          <br/><br/>
+          <img src="img/Line Leader.png" style="max-width: 1200px;border:solid;border-width:thin;"></img>
+        </div>
+      </td>
+      <td width=30>&nbsp;</td>
+    </tr>
+  </table>
+
+  <div class="prose">
+
+    <p>
+            Also present on the page is a line chart, which plots the accuracy of models submitted over time, using 'human accuracy' on the dataset as the standard to beat. Human accuracy is measured by asking a set of people to answer the same test set questions provided to the model.
+
+    </p>
+  <p>
+    AI/ML leaderboards have been around for several years now, and competition to become the top-ranked model is fierce. Increasingly, top-ranked models
+     are becoming <em>larger</em> and more <em>complex</em>. Unfortunately, we are increasingly seeing a gap where, just because a model tops a particular leaderboard, 
+     there is no guarantee that the model will actually be deployed in the real-world.
+</p>
+<p>
+    To help understand why high-performing leaderboard models don't necessarily translate to effective real-world usage, let's explore how AI/ML models are evaluated.
+ </p>
+ 
+ <h1 id="groups-section">Do the evaluation metrics we use fairly evaluate?</h1>
+
+ <p>
+ There are a plethora of candidate evaluation metrics, including precision, accuracy, recall, F1 score, specificity, confusion matrix, etc. 
+ Here, we focus on <strong>accuracy</strong>:<em>how many data samples are correctly answered out of the total number of tested samples?</em>
+ Essentially, accuracy is computed by assigning samples correctly answered with a weight of <strong>1</strong>, and samples incorrectly answered with a weight of <strong>0</strong>. 
+ This is by far the most common way that leaderboards evaluate model performance.
+</p>
+
+</div><!-- prose -->
+
+<table style="position:relative;top:-20px;">
+  <tr>
+   <td>&nbsp;</td>
+   <td colspan=3>
+       <div class="figure-title" style="margin-bottom:20px;margin-left:20px;">
+         SST-2 (Sentiment Analysis) Test Set Predictions 
+       </div>
+   </td>
+ </tr>
+ <tr>
+   <td valign="top">
+     <table>
+       <tr><td width="200" valign="top" align="right">
+         <div style="margin-top:0px">
+          <span class="margin-bold">Ranking</span><br/>
+          <span class="margin-text">
+           Models are arranged in increasing order of accuracy
+         </span><br/><br/><br/><br/><br/>
+         <span class="margin-bold" style="color:#fb8072;">Red</span>
+         <span class="margin-text">
+           samples are incorrectly classified
+         </span><br/><br/><br/><br/><br/>
+         <span class="margin-bold" style="color:#8dd3c7;">Green</span>
+         <span class="margin-text">
+           samples are correctly classified
+         </span><br/><br/><br/><br/><br/>
+         <span class="margin-bold">STS and Hardness</span><br/>
+         <span class="margin-text">
+          The y-axis measures the average similarity of each test set sample with the top 25% of most similar train set samples
+        </span><br/><br/><br/><br/><br/>
+        <span class="margin-bold">OOD</span><br/>
+        <span class="margin-text">
+         Samples which are less similar to the train set are harder for models to solve (Mishra et.al.)
+       </span><br/><br/><br/><br/><br/>
+       <span class="margin-bold">Inconsistencies</span><br/>
+       <span class="margin-text">
+        High accuracy models like BERT-BASE fail on easy (high STS value) samples
+      </span><br/><br/><br/><br/><br/>
+
+         </div>
+       </td></tr>
+       <tr><td width="200" valign="bottom" align="right">
+       </td></tr>
+
+     </table>
+   </td>
+
+   <td valign="top">
+     <div id="diagram_1" style="position: relative;margin-left: 5px;">
+     </div>
+   </td>
+   <td width=30>&nbsp;</td>
+ </tr>
+</table>
+
+
+<div class="prose" style="position: relative;top:-50px;">
+
+  <p>
+  Consider the models plotted in the above beeswarm plots. Each plot shows the predictions for a model. Color indicates correctness and vertical position 
+  indicates the sample difficulty (ranked based on sentence similarity of each considered dev set sample with respect to the train set). Model X answers more of 
+  the <strong><em>"tough"</em></strong> questions than Model Y, but it has a lower overall accuracy percentage. Such <strong><em>"tough"</em></strong> questions can be 
+  considered akin to out-of-distribution (OOD) samples; patterns/skills that the model learns from the train set cannot directly be applied to solve such samples. 
+</p>
+  <p>
+  <strong> Does this mean X is better than Y? Not necessarily, as it depends on the application scenario! </strong>
+</p>
+  <p>
+  Consider a chocolate factory, where robotic components are monitored by a trained model, to account 
+  for temperature and consistency during the manufacturing process. In such a scenario, the model is not likely 
+  to experience significant environmental variation. In this case, correctly answering a higher number of overall samples is the most 
+  important consideration, as OOD samples are rare, making naive accuracy an appropriate evaluation metric.
+</p>
+<p>
+  However, as different application domains contain different priorities and requirements, alternative evaluation metrics are increasingly vital to 
+  ensure fair and robust model evaluation. Fortunately, recent research in this area has led to several newly proposed metrics that can be employed based 
+  on a domain's semantics. 
+</p>
+<p>
+  Here, we explain three recently introduced metrics which can be considered as alternatives to naive accuracy: <strong>WBias,WOOD, and WMProb</strong>.
+  These metrics tweak how accuracy is calculated by using different weight assignment schemes - positive for correct answers, and negative to impose penalties for 
+  incorrect answers - and can be tailored based on a specific application domain. 
+</p>
+
+</div>
+
+<table style="position:relative;top:-70px;">
+  <tr>
+   <td>&nbsp;</td>
+   <td colspan=3>
+       <div class="figure-title" style="margin-bottom:20px;margin-left:20px;">
+         Metric Comparisons on SST-2  
+       </div>
+   </td>
+ </tr>
+ <tr>
+   <td valign="top">
+     <table>
+       <tr><td width="200" valign="top" align="right">
+         <div style="margin-top:0px">
+         <span class="margin-bold">Metrics Vs. Accuracy</span><br>
+         <span class="margin-text">
+           While accuracy increases montonically, from the line plot, we see that the scores for the three new metrics do not.
+         </span><br/><br/><br/><br/>
+         <span class="margin-bold">Magnitude</span><br>
+         <span class="margin-text">
+           The scores are also much lower than the accuracy values.
+         </span><br/>
+         </div>
+       </td></tr>
+       <tr><td width="200" valign="bottom" align="right">
+         <br/><br/><br/>
+         <span class="margin-bold">WOOD Vs. Accuracy</span><br>
+         <span class="margin-text">
+          While WOOD Score values remain more or less constant over splits when identical weights
+           are assigned, WOOD also displays non-parallel behavior to accuracy.
+         </span><br/><br/><br/>
+         <span class="margin-bold">Size</span><br>
+         <span class="margin-text">
+          Size indicates the amount of computational resources invested in developing the model.
+         </span><br/>
+       </td></tr>
+
+     </table>
+   </td>
+
+   <td valign="top">
+     <div id="plain-histogram0" style="position: relative;margin-left: 5px;">
+       <img src="img/2b.png" style="width: 600px;height:400px;border:solid;border-width:thin;"></img>
+       <img src="img/2a.png" style="width: 600px;height:400px;border:solid;border-width:thin;"></img>
+     </div>
+   </td>
+   <td width=30>&nbsp;</td>
+ </tr>
+</table>
+<div class="prose">
+<p>
+To provide an overview, let's first plot naive accuracy against WBias, WOOD, and WMProb using the above line charts. 
+The models are ordered based on naive accuracy, but this ranking is not maintained across the alternate metrics. Let's look at the three alternative 
+metrics to see how they evaluate model performance.
+</p>
+
+<p>First, let's define each metric and consider their intuitions:</p>
+
+<p><strong>WBias, or weighted bias score</strong>, attaches lower scores to more <strong>biased</strong> <em>(easily predictable)</em> samples. <strong>Bias</strong> refers to 
+  unintended correlations between model input and output (e.g.: if words like 'not' or 'no' are present in a sample, a biased model might label the sample as having negative 
+  sentiment as it has seen many similar cases during training). An example where WBias is apt for evaluation is seen in the adjoining screenshot- machine translation from German to English is incorrectly 
+  gendered due to training set bias. In essence, WBias tries to estimate the <em>level at which a model "hacks" the dataset</em> as opposed to learning the 
+  task. 
+</p>
+
+<img src="./img/Google.png" style="max-width:300px;border:thin;position:relative;top:-270px;left:850px;"/>
+
+</div>
+
+<table style="position:relative;top:-300px;">
+  <tr>
+   <td>&nbsp;</td>
+   <td colspan=3>
+       <div class="figure-title" style="margin-bottom:20px;margin-left:20px;">
+         SST-2 Test Set : WBias Score 
+       </div>
+   </td>
+ </tr>
+ <tr>
+   <td valign="top">
+     <table>
+       <tr><td width="200" valign="top" align="right">
+         <div style="margin-top:0px">
+          <span class="margin-bold">Ranking</span><br/>
+          <span class="margin-text">
+           Models are arranged in increasing order of accuracy
+         </span><br/><br/><br/><br/><br/>
+         <span class="margin-bold">Predictability Score and Hardness</span><br/>
+         <span class="margin-text">
+          The y-axis measures the predictability scores of samples
+        </span><br/><br/><br/><br/><br/>
+        <span class="margin-bold">Predictability</span><br/>
+        <span class="margin-text">
+         The score is calculated by finding the 
+         number of times a sample is correctly predicted across 128 iterations using linear models such as SVM and Logistic Regression. 
+       </span><br/><br/><br/><br/><br/>
+       <span class="margin-bold">Splits</span><br/>
+       <span class="margin-text">
+        The dataset can be divided into 'n' equal splits or 'n' splits based on thresholds. 
+      </span><br/><br/><br/><br/><br/>
+      <span class="margin-bold">Color and Size</span><br/>
+      <span class="margin-text">
+        Color indicates the splits, and size indicates if the model 
+        predicts the label incorrectly (smaller) or correctly (larger).
+      </span><br/><br/><br/><br/><br/>
+
+         </div>
+       </td></tr>
+       <tr><td width="200" valign="bottom" align="right">
+         <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+       </td></tr>
+       <tr><td width="200" valign="bottom" align="right">
+       </td></tr>
+
+     </table>
+   </td>
+
+   <td valign="top">
+     <div id="diagram_3" style="position: relative;margin-left: 5px;">
+     </div>
+     <div style="position:relative;top:-450px;left:1250px;width:100px;">
+      <span class="margin-bold">Comparison</span><br/>
+      <span class="margin-text">
+      Thresholded splits show more significant variation in split-wise model performance than equidistant splits. For example, 
+      4 thresholded splits show that Bert Base and Bert Large performance with respect to each split are almost identical.
+      </span>
+
+     </div>
+   </td>
+   <td width=30>&nbsp;</td>
+ </tr>
+</table>
+
+
+
+<div class="prose" style="position:relative;top:-500px;">
+
+  <p><strong>WOOD, or weighted out-of-distribution score</strong>, tries to assess whether or not a model is likely to answer OOD samples correctly. 
+    Samples are ranked using <strong>semantic textual similarity</strong> (STS, i.e., <em>sentence similarity of test set samples with respect to train set samples</em>), which 
+    is an indicator of OOD characteristics. Samples with higher STS scores are weighted lower, as they are more likely to be in-distribution (IID). For example, conversational 
+    agents are likely to experience a varying range of input, and thus WOOD Score is an important facet of model evaluation. In essence, 
+    WOOD tries to <em>estimate the range of samples that your model should be able handle</em>.</p>
+    <img src="./img/Siri.png" style="max-width:300px;border:thin;position:relative;top:-130px;left:850px;"/>
+
+  </div>
+  
+  <table style="position:relative;top:-650px;">
+    <tr>
+     <td>&nbsp;</td>
+     <td colspan=3>
+         <div class="figure-title" style="margin-bottom:20px;margin-left:20px;">
+           SST-2 Test Set : WOOD Score 
+         </div>
+     </td>
+   </tr>
+   <tr>
+     <td valign="top">
+       <table>
+         <tr><td width="200" valign="top" align="right">
+           <div style="margin-top:0px">
+            <span class="margin-bold">Ranking</span><br/>
+            <span class="margin-text">
+             Models are arranged in increasing order of accuracy
+           </span><br/><br/><br/><br/>
+           <span class="margin-bold">STS and Hardness</span><br/>
+           <span class="margin-text">
+            The y-axis measures the semantic textual similarty (STS) of samples with respect to the train set. 
+          </span><br/><br/><br/><br/>
+          <span class="margin-bold">STS</span><br/>
+          <span class="margin-text">
+           The score is calculated by taking the average of STS values for each sample with respect to the top n% of the train set. Throughout, we measure WOOD Score using the
+           top 25% most simlilar train set samples for each test set sample. 
+         </span><br/><br/><br/><br/>
+         <span class="margin-bold">Splits</span><br/>
+         <span class="margin-text">
+          The dataset can be divided into 'n' equal splits or 'n' splits based on thresholds. 
+        </span><br/><br/><br/><br/>
+        <span class="margin-bold">Color and Size</span><br/>
+        <span class="margin-text">
+          Color indicates the splits, and size indicates if the model 
+          predicts the label incorrectly (smaller) or correctly (larger).
+        </span>
+  
+           </div>
+         </td></tr>
+         <tr><td width="200" valign="bottom" align="right">
+         </td></tr>
+         <tr><td width="200" valign="bottom" align="right">
+         </td></tr>
+  
+       </table>
+     </td>
+  
+     <td valign="top">
+       <div id="diagram_4" style="position: relative;margin-left: 5px;">
+       </div>
+       <div style="position:relative;top:-550px;left:1250px;width:100px;">
+        <span class="margin-bold">Comparison</span><br/>
+        <span class="margin-text">
+        WOOD Score values in the case of seven equidistant splits show that BERT-LARGE and BERT-BASE have very small differences in performance. Interestingly enough,
+        while ROBERTA-LARGE has an overall higher accuracy than GLOVE-LSTM, even if weighted and summed split-wise, it performs significantly  worse on split 1, which contains the highest STS 
+        (i.e., easiest) samples. This can be attributed to ROBERTA-LARGE forgetting portions of what it has learned during train, due to model size.
+        </span>
+  
+       </div>
+  
+     </td>
+     <td width=30>&nbsp;</td>
+   </tr>
+  </table>
+  
+  <div class="prose" style="position:relative;top:-1100px;">
+  
+  <p>
+    <strong>WMProb, or weighted maximum probability score</strong>, weights predictions according to the model confidence. Unfortunately, models sometimes provide 
+    <em>clearly incorrect predictions with high confidence</em>. A sample with high confidence that is incorrectly predicted will hurt the score more than a sample 
+    incorrectly predicted with low confidence. For example, in facial recognition, sometimes, tilted images are not recognized correctly- the adjacent image shows how
+    a tilted cat is classified as guacamole, with high confidence; WMProb can be the guiding evaluation metric for such scenarios. In essence, WMProb tries to <em>penalize confident-but-incorrect predictions</em>, while predictions with low confidence 
+    <em>(where the model essentially says "I don't know!")</em> are less detrimental.
+  
+  </p>
+  <img src="./img/Img.png" style="max-width:300px;border:thin;position:relative;top:-150px;left:850px;"/>
+
+    </div>
+    
+    <table style="position:relative;top:-1250px;">
+      <tr>
+       <td>&nbsp;</td>
+       <td colspan=3>
+           <div class="figure-title" style="margin-bottom:20px;margin-left:20px;">
+             SST-2 Test Set : WMProb Score 
+           </div>
+       </td>
+     </tr>
+     <tr>
+       <td valign="top">
+         <table>
+           <tr><td width="200" valign="top" align="right">
+             <div style="margin-top:0px">
+              <span class="margin-bold">Ranking</span><br/>
+              <span class="margin-text">
+               Models are arranged in increasing order of accuracy
+             </span><br/><br/><br/><br/><br/>
+             <span class="margin-bold">Predictability Score and Hardness</span><br/>
+             <span class="margin-text">
+              The y-axis measures the confidence of sample predictions
+            </span><br/><br/><br/><br/><br/>
+            <span class="margin-bold">Predictability</span><br/>
+            <span class="margin-text">
+             The score is calculated by weighting predictions according to their confidence and summing. Higher weightage is given to low-confidence samples. The aim is to 
+             encourage the model to abstain in incorrect scenarios, rather than offering a wrong answer.
+           </span><br/><br/><br/><br/><br/>
+           <span class="margin-bold">Splits</span><br/>
+           <span class="margin-text">
+            The dataset can be divided into 'n' equal splits or 'n' splits based on thresholds. 
+          </span><br/><br/><br/><br/><br/>
+          <span class="margin-bold">Color and Size</span><br/>
+          <span class="margin-text">
+            Color indicates the splits, and size indicates if the model 
+            predicts the label incorrectly (smaller) or correctly (larger). 
+          </span><br/><br/><br/><br/><br/>
+    
+             </div>
+           </td></tr>
+           <tr><td width="200" valign="bottom" align="right">
+             <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+           </td></tr>
+           <tr><td width="200" valign="bottom" align="right">
+           </td></tr>
+    
+         </table>
+       </td>
+    
+       <td valign="top">
+         <div id="diagram_5" style="position: relative;margin-left: 5px;">
+         </div>
+         <div style="position:relative;top:-600px;left:1250px;width:100px;">
+          <span class="margin-bold">Comparison</span><br/>
+          <span class="margin-text">
+         Here, across all splits, we can see that a significant proportion of the models predictions have confidence levels >0.9. In case of thresholded splits,
+         this renders the low confidence (difficult) sample splits sparsely populated. However, by penalizing models through WMProb, we see that significant ranking changes occur
+         as in the case of five thresholded splits. On assigning negative weights to split 5, BERT-BASE no longer displays the highest model performance. Similarly, in the case
+         of Split 1, GLOVE-LSTM performance is the same as that of BERT-BASE.
+          </span>
+    
+         </div>
+  
+       </td>
+       <td width=30>&nbsp;</td>
+     </tr>
+    </table>
+    
+    <div class="prose" style="position:relative;top:-1750px;">
+<p>For better understanding of the case studies, we walk you through how WOOD score is calculated below. WBias (ranks based on confidence) and 
+      WMProb (ranks based on predictability of samples) are similarly calculated (with the exception of step (ii)).</p>
+
+    <p><strong>Calculation Steps:</strong></p>
+
+<p>(i) We find the sentence similarity of test set samples with respect to each of the training set samples. </p>
+<p>(ii) We average the similarity of each test set sample with respect to the top n% similar samples to the training set. </p>
+<p>(iii) We rank samples in decreasing order of this averaged similarity. </p>
+<p>(iv) We split the samples into either equal splits or on the basis of thresholds.</p>
+<p>(v) We assign weights for each split. The imposition of penalties for incorrect answers is also defined. The weights can be discrete or continuous.</p>
+<p>(vi) We calculate the normalized score.</p>
+
+    <p>The common trend in the metrics we analyze is that irrespective of the hardness scale's basis, the three weighted metrics assign lower weight to "easy questions ""
+    and higher weight to "hard questions" (though, what defines easy and hard differs between each metric). Why is this helpful? In the same way that competitive exams like GMAT and GRE scale points according to the effort 
+    required to solve a question, the metrics assign weight based on the model 'effort' required for a correct answer.</p>
+
+  <p>Below, we show how the weight scale used can be either continuous or discrete (splitwise). Discrete assignment can involve splits of equal/unequal size. Multi-grained comparative 
+    model analysis using different subsets of data can be performed to find the <strong>points at which model rankings change </strong> (i.e., accuracy's results are broken). Initially, 
+    the metric for analysis is selected and the beeswarm and overall accuracy graph for the models is displayed. Then, based on split creation, the accuracy chart is
+    replaced by a parallel coordinates plot which compares model performance at each split.
+  </p>
+    
+    </div>
+  
+    <table style="position:relative;top:-1750px;">
+      <tr>
+       <td>&nbsp;</td>
+       <td colspan=3>
+           <div class="figure-title" style="margin-bottom:20px;margin-left:20px;" id="model7">
+             SST-2 Test Set : Model Ranking
+             <br/><label for="select7m" style="font-size:11pt;">Choose Metric:</label><select name="select7m" id="select7m" style="width:170px;height:20px;position:relative;left:5px;">
+              <option value="NIL">---</option>
+              <option value="WOOD">WOOD</option>
+            <option value="WBias">WBias</option>
+            <option value="WMProb">WMProb</option>
+            </select>
+           </div>
+       </td>
+     </tr>
+     <tr>
+       <td valign="top">
+         <table>
+           <tr><td width="200" valign="top" align="right" >
+             <div style="margin-top:0px">
+              <span class="margin-bold">Accuracy</span><br/>
+              <span class="margin-text">
+               Models are arranged in increasing order of accuracy. On changing the metric, the accuracy ranking of models is displayed below the beeswarm.
+             </span><br/>
+             <span class="margin-bold">WOOD Score</span><br/>
+             <span class="margin-text">
+              The overall WOOD score of the model decreases in the scenario when those samples with low STS  (i.e., higher OOD characteristics) are predominantly negatively weighted, as the absolute weights assigned for those samples are higher. This implies that the model is unable to generalize (perform well on OOD data) effectively.            </span>
+              <br/>
+            <span class="margin-bold">WMProb Score</span><br/>
+            <span class="margin-text">
+              If more incorrect samples are associated with high model confidence, the overall WMProb score of the model decreases. This shows that the model is unable to handle OOD data effectively, and that increases seen in its OOD performance might stem from non-learning related factors.
+           </span><br/>
+          <span class="margin-bold">WBias Score</span><br/>
+          <span class="margin-text">
+            If those samples with low predictability scores (i.e., low spurious bias) are predominantly negatively weighted, the overall WBias score of the model will decrease as the absolute weights assigned for those samples are higher. This scenario would indicate that the model is over-reliant on spurious bias.
+          </span><br/><br/><br/><br/><br/></span><br/>
+
+          <span class="margin-bold">Comparison</span><br/>
+          <span class="margin-text" style="width:150px;">
+        Let 'n' be the number of splits. To determine split wise accuracy of models, we either assign continous normalized weights, or assign weights for 1 split at a time as follows:<br/>
+        (i) Correct Samples: +n  <br/>Incorrect Samples: -n<br/>
+        (ii) Correct Samples: +n  <br/>Incorrect Samples: 0<br/>
+        (iii) Correct Samples: 0  <br/>Incorrect Samples: -n<br/>
+        (iv) Correct Samples: +n  <br/>Incorrect Samples: -n/2<br/>
+        (v) Correct Samples: +n/2  <br/>Incorrect Samples: -n<br/>
+          </span><br/>
+          <span class="margin-bold">Analysis</span><br/>
+          <span class="margin-text">The split-wise ranking changes vastly from the original accuracy ranking. However, it is not affected
+            by different weight assignment. </span><br/>
+            <span class="margin-bold">Ranking</span><br/>
+            <span class="margin-text"> The parallel coordinates plot compares model performance for each split of data, based on the 
+              vertical position of the model's point at each vertical line. We see that there are many crossing lines, 
+              indicating a frequent change in model ranking. </span><br/>            
+             </div>
+           </td></tr>
+           <tr><td width="200" valign="bottom" align="right">
+           </td></tr>
+           <tr><td width="200" valign="bottom" align="right">
+           </td></tr>
+    
+         </table>
+       </td>
+    
+       <td valign="top">
+         <div id="diagram_7" style="position: relative;margin-left: 5px;">
+         </div>
+         <div style="position:relative;top:-520px;left:1250px;width:150px;">
+         </div>
+         <div style="position:relative;left:5px;" id="sevenpic"></div>
+        </td>
+       <td width=30>&nbsp;</td>
+
+     </tr>
+    </table>
+    
+    <div class="prose" style="position:relative;top:-1700px;">
+    
+      <h1 id="conclusion-section" >Improving Machine Learning Systems</h1>
+    
+    <p>
+      What kind of samples does a model need to solve more of- hard, easy, or a combination of both? Ultimately, the answer lies with the user, 
+      as does the final choice of model selection. 
+      .Sticking to one accuracy metric, as leaderboards currently do, is increasingly limiting the ability of models to generalize over 
+      diverse usage scenarios. In contrast, by approaching model development and evaluation with multifaceted evaluation metrics, such as WBias, 
+      WOOD, and WMProb, more complex and tailored usage scenarios can be considered. Such metrics can also be applied in current discussion about 
+      fairness in AI/ML, such as mitigating biased benchmarks and overfitted models, providing transparency and interpretability into models, 
+      advancing generalizability and accessibility, and helping developers understand how different sample distributions can affect model performance.
+    </p>
+      </div>
+
   <script src="./scripts/d3/d3.v4.js"></script>
   <script src="./scripts/d3/d3.scale.chromatic.js"></script>
   <script src="./scripts/d3/d3.topojson.js"></script>
-  <script src="./scripts/d3/d3.queue.js"></script>
-  <script src="./scripts/test.js"></script>  
-</html>
+  <script src="./scripts/d3/d3.queue.js"></script>  
+  <script src="./scripts/d3/d3.layout.js"></script>  
+  <script src="./scripts/d3/d3.v4.min.js"></script>
+  <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+  <script src="./scripts/force-chart.js"></script>
+  <script src="./scripts/test.js"></script>
 
+</body>
+</html>
