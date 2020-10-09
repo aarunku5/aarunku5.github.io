@@ -238,9 +238,10 @@ h1 {
   </table>
 
   <div class="prose">
+    <em style="position:relative;top:-30px;left:300px;">Figure 1: Top- Allen AI Leaderboard for Physical QA, Bottom- Allen AI Stats of Model Performance Over Time</em>
 
     <p>
-            Also present on the page is a line chart, which plots the accuracy of models submitted over time, using 'human accuracy' on the dataset as the standard to beat. Human accuracy is measured by asking a set of people to answer the same test set questions provided to the model.
+            Also present on the page is a line chart, which plots the accuracy of models submitted over time, using "human accuracy" on the dataset as the standard to beat. Human accuracy is measured by asking a set of people to answer the same test set questions provided to the model.
 
     </p>
   <p>
@@ -268,7 +269,7 @@ h1 {
    <td>&nbsp;</td>
    <td colspan=3>
        <div class="figure-title" style="margin-bottom:20px;margin-left:20px;">
-         SST-2 (Sentiment Analysis) Test Set Predictions 
+         SST-2 (Sentiment Analysis) Test Set Predictions - Accuracy
        </div>
    </td>
  </tr>
@@ -320,6 +321,7 @@ h1 {
 
 
 <div class="prose" style="position: relative;top:-50px;">
+  <em style="position:relative;top:-30px;left:300px;">Figure 2: Beeswarm plots showing model performance variation across different sample STS values</em>
 
   <p>
   Consider the models plotted in the above beeswarm plots. Each plot shows the predictions for a model. Color indicates correctness and vertical position 
@@ -342,7 +344,7 @@ h1 {
   on a domain's semantics. 
 </p>
 <p>
-  Here, we explain three recently introduced metrics which can be considered as alternatives to naive accuracy: <strong>WBias,WOOD, and WMProb</strong>.
+  Here, we explain three recently introduced metrics which can be considered as alternatives to naive accuracy: <strong>WBias, WOOD, and WMProb</strong>.
   These metrics tweak how accuracy is calculated by using different weight assignment schemes - positive for correct answers, and negative to impose penalties for 
   incorrect answers - and can be tailored based on a specific application domain. 
 </p>
@@ -399,6 +401,9 @@ h1 {
  </tr>
 </table>
 <div class="prose">
+  <em style="position:relative;top:-80px;left:200px;">Figure 3: Left- Comparison of weighted metrics with accuracy, calculated over 7 splits of data, with +/-n weight scheme,</em>
+  <em style="position:relative;top:-70px;left:220px;">Right- Comparison of WOOD Score (calculated over varying splits of data, with +/-n weight scheme) and Accuracy </em>
+
 <p>
 To provide an overview, let's first plot naive accuracy against WBias, WOOD, and WMProb using the above line charts. 
 The models are ordered based on naive accuracy, but this ranking is not maintained across the alternate metrics. Let's look at the three alternative 
@@ -408,13 +413,16 @@ metrics to see how they evaluate model performance.
 <p>First, let's define each metric and consider their intuitions:</p>
 
 <p><strong>WBias, or weighted bias score</strong>, attaches lower scores to more <strong>biased</strong> <em>(easily predictable)</em> samples. <strong>Bias</strong> refers to 
-  unintended correlations between model input and output (e.g.: if words like 'not' or 'no' are present in a sample, a biased model might label the sample as having negative 
+  unintended correlations between model input and output (e.g.: if words like "not" or "no" are present in a sample, a biased model might label the sample as having negative 
   sentiment as it has seen many similar cases during training). An example where WBias is apt for evaluation is seen in the adjoining screenshot- machine translation from German to English is incorrectly 
   gendered due to training set bias. In essence, WBias tries to estimate the <em>level at which a model "hacks" the dataset</em> as opposed to learning the 
   task. 
 </p>
 
 <img src="./img/Google.png" style="max-width:300px;border:thin;position:relative;top:-270px;left:850px;"/>
+<em style="position:relative;top:-260px;left:550px;">Figure 4: Machine Translation ignores gender</em>
+<em style="position:relative;top:-240px;left:290px;"> if trained on unbalanced data</em>
+
 
 </div>
 
@@ -447,7 +455,7 @@ metrics to see how they evaluate model performance.
        </span><br/><br/><br/><br/><br/>
        <span class="margin-bold">Splits</span><br/>
        <span class="margin-text">
-        The dataset can be divided into 'n' equal splits or 'n' splits based on thresholds. 
+        The dataset can be divided into "n" equal splits or "n" splits based on thresholds. 
       </span><br/><br/><br/><br/><br/>
       <span class="margin-bold">Color and Size</span><br/>
       <span class="margin-text">
@@ -483,8 +491,10 @@ metrics to see how they evaluate model performance.
 </table>
 
 
+<em style="position:relative;top:-570px;left:370px;width:200px;">Figure 5: Beeswarm plots showing model performance variation among different clusters of samples based on WBias (predictability) values</em>
 
 <div class="prose" style="position:relative;top:-500px;">
+
 
   <p><strong>WOOD, or weighted out-of-distribution score</strong>, tries to assess whether or not a model is likely to answer OOD samples correctly. 
     Samples are ranked using <strong>semantic textual similarity</strong> (STS, i.e., <em>sentence similarity of test set samples with respect to train set samples</em>), which 
@@ -492,6 +502,9 @@ metrics to see how they evaluate model performance.
     agents are likely to experience a varying range of input, and thus WOOD Score is an important facet of model evaluation. In essence, 
     WOOD tries to <em>estimate the range of samples that your model should be able handle</em>.</p>
     <img src="./img/Siri.png" style="max-width:300px;border:thin;position:relative;top:-130px;left:850px;"/>
+    <em style="position:relative;top:-110px;left:550px;">Figure 6: Conversational Agents like Siri have </em>
+    <em style="position:relative;top:-95px;left:290px;">to parse a varying range of input</em>
+
 
   </div>
   
@@ -524,7 +537,7 @@ metrics to see how they evaluate model performance.
          </span><br/><br/><br/><br/>
          <span class="margin-bold">Splits</span><br/>
          <span class="margin-text">
-          The dataset can be divided into 'n' equal splits or 'n' splits based on thresholds. 
+          The dataset can be divided into "n" equal splits or "n" splits based on thresholds. 
         </span><br/><br/><br/><br/>
         <span class="margin-bold">Color and Size</span><br/>
         <span class="margin-text">
@@ -559,9 +572,12 @@ metrics to see how they evaluate model performance.
      <td width=30>&nbsp;</td>
    </tr>
   </table>
-  
+  <em style="position:relative;top:-1160px;left:370px;width:200px;">Figure 7: Beeswarm plots showing model performance variation among different clusters of samples based on WOOD (STS) values</em>
+
   <div class="prose" style="position:relative;top:-1100px;">
-  
+    <em style="position:relative;top:180px;left:850px;">Figure 8: Classification models can answer incorrectly </em>
+    <em style="position:relative;top:195px;left:450px;"> with high confidence- here a tilted cat head is labelled as guacamole</em>
+    
   <p>
     <strong>WMProb, or weighted maximum probability score</strong>, weights predictions according to the model confidence. Unfortunately, models sometimes provide 
     <em>clearly incorrect predictions with high confidence</em>. A sample with high confidence that is incorrectly predicted will hurt the score more than a sample 
@@ -571,6 +587,7 @@ metrics to see how they evaluate model performance.
   
   </p>
   <img src="./img/Img.png" style="max-width:300px;border:thin;position:relative;top:-150px;left:850px;"/>
+
 
     </div>
     
@@ -603,7 +620,7 @@ metrics to see how they evaluate model performance.
            </span><br/><br/><br/><br/><br/>
            <span class="margin-bold">Splits</span><br/>
            <span class="margin-text">
-            The dataset can be divided into 'n' equal splits or 'n' splits based on thresholds. 
+            The dataset can be divided into "n" equal splits or "n" splits based on thresholds. 
           </span><br/><br/><br/><br/><br/>
           <span class="margin-bold">Color and Size</span><br/>
           <span class="margin-text">
@@ -640,6 +657,8 @@ metrics to see how they evaluate model performance.
        <td width=30>&nbsp;</td>
      </tr>
     </table>
+    <em style="position:relative;top:-1810px;left:370px;width:200px;">Figure 9: Beeswarm plots showing model performance variation among different clusters of samples based on WMProb (SoftMax) values</em>
+
     
     <div class="prose" style="position:relative;top:-1750px;">
 <p>For better understanding of the case studies, we walk you through how WOOD score is calculated below. WBias (ranks based on confidence) and 
@@ -654,9 +673,9 @@ metrics to see how they evaluate model performance.
 <p>(v) We assign weights for each split. The imposition of penalties for incorrect answers is also defined. The weights can be discrete or continuous.</p>
 <p>(vi) We calculate the normalized score.</p>
 
-    <p>The common trend in the metrics we analyze is that irrespective of the hardness scale's basis, the three weighted metrics assign lower weight to "easy questions ""
+    <p>The common trend in the metrics we analyze is that irrespective of the hardness scale's basis, the three weighted metrics assign lower weight to "easy questions"
     and higher weight to "hard questions" (though, what defines easy and hard differs between each metric). Why is this helpful? In the same way that competitive exams like GMAT and GRE scale points according to the effort 
-    required to solve a question, the metrics assign weight based on the model 'effort' required for a correct answer.</p>
+    required to solve a question, the metrics assign weight based on the model "effort" required for a correct answer.</p>
 
   <p>Below, we show how the weight scale used can be either continuous or discrete (splitwise). Discrete assignment can involve splits of equal/unequal size. Multi-grained comparative 
     model analysis using different subsets of data can be performed to find the <strong>points at which model rankings change </strong> (i.e., accuracy's results are broken). Initially, 
@@ -685,7 +704,7 @@ metrics to see how they evaluate model performance.
        <td valign="top">
          <table>
            <tr><td width="200" valign="top" align="right" >
-             <div style="margin-top:0px">
+             <div style="margin-top:0px" id="lastdiv">
               <span class="margin-bold">Accuracy</span><br/>
               <span class="margin-text">
                Models are arranged in increasing order of accuracy. On changing the metric, the accuracy ranking of models is displayed below the beeswarm.
@@ -701,19 +720,19 @@ metrics to see how they evaluate model performance.
           <span class="margin-bold">WBias Score</span><br/>
           <span class="margin-text">
             If those samples with low predictability scores (i.e., low spurious bias) are predominantly negatively weighted, the overall WBias score of the model will decrease as the absolute weights assigned for those samples are higher. This scenario would indicate that the model is over-reliant on spurious bias.
-          </span><br/><br/><br/><br/><br/></span><br/>
+          </span><br/></span><br/>
 
           <span class="margin-bold">Comparison</span><br/>
           <span class="margin-text" style="width:150px;">
-        Let 'n' be the number of splits. To determine split wise accuracy of models, we either assign continous normalized weights, or assign weights for 1 split at a time as follows:<br/>
-        (i) Correct Samples: +n  <br/>Incorrect Samples: -n<br/>
-        (ii) Correct Samples: +n  <br/>Incorrect Samples: 0<br/>
-        (iii) Correct Samples: 0  <br/>Incorrect Samples: -n<br/>
-        (iv) Correct Samples: +n  <br/>Incorrect Samples: -n/2<br/>
-        (v) Correct Samples: +n/2  <br/>Incorrect Samples: -n<br/>
-          </span><br/>
+        Let "n" be the number of splits. To determine split wise accuracy of models, we either assign continous normalized weights, or assign weights for 1 split at a time for correct/incorrect samples respectively as follows:<br/>
+        (i) +n / -n  <br/>
+        (ii) +n / 0  <br/>
+        (iii) 0 / -n  <br/>
+        (iv) +n / -n/2  <br/>
+        (v) +n/2 / -n  <br/>
+          </span>
           <span class="margin-bold">Analysis</span><br/>
-          <span class="margin-text">The split-wise ranking changes vastly from the original accuracy ranking. However, it is not affected
+          <span class="margin-text">Split-wise ranking changes significantly, but is not affected
             by different weight assignment. </span><br/>
             <span class="margin-bold">Ranking</span><br/>
             <span class="margin-text"> The parallel coordinates plot compares model performance for each split of data, based on the 
@@ -740,6 +759,12 @@ metrics to see how they evaluate model performance.
 
      </tr>
     </table>
+    <div>
+    <em style="position:relative;top:-1750px;left:370px;">Figure 10: Top- Beeswarm plots showing model performance variation among different clusters of samples based on WOOD / WMProb / WBias.</em>
+    <em style="position:relative;top:-1730px;left:-490px;">Bottom- Bar Charts show accuracy values for models, and parallel plots show (a) number of incorrectly classfied samples, </em>
+    <em style="position:relative;top:-1730px;left:400px;">and (b) model performance, per split. Line Charts compare WOOD/WBias/WMProb with raw accuracy, and show how ranking changes.</em>
+  </div>
+    
     
     <div class="prose" style="position:relative;top:-1700px;">
     

@@ -2246,9 +2246,40 @@ menu7.on("change", function(d) {
 }
 
 function imginsert(fn){
-    d3.select("#sevenpic").select("svg").remove()
-    var svg=d3.select("#sevenpic").append("svg").attr("width",width).attr("height",height).attr("id","img7").style("border","solid 1px")
-    path="./img/Rank/"+fn+".png"
-    svg.append("image").attr("xlink:href",path).attr("width",width).attr("height",height)
+    d3.select("#sevenpic").selectAll("svg").remove()
+    var sel = d3.select("#select7m").property("value")
+    if(sel=="WMProb")
+    {
+        d3.select("#lastdiv").style("position","relative").style("top","0px")
+        var svg=d3.select("#sevenpic").append("svg").attr("width",900).attr("height",400).attr("id","img7").style("border","solid 1px")
+        path="./img/Rank/"+fn+".png"
+        svg.append("image").attr("xlink:href",path).attr("width",900).attr("height",400)
+        var svg=d3.select("#sevenpic").append("svg").attr("width",300).attr("height",400).attr("id","img7").style("border","solid 1px").style("position","relative").style("left","15")
+        path="./img/Rank/"+fn+".png"    
+        svg.append("image").attr("xlink:href",'./img/WMPROB.png').attr("width",300).attr("height",400)}
+    else if(sel=="WBias")
+    {
+        d3.select("#lastdiv").style("position","relative").style("top","0px")
+        var svg=d3.select("#sevenpic").append("svg").attr("width",900).attr("height",400).attr("id","img7").style("border","solid 1px")
+        path="./img/Rank/"+fn+".png"
+        svg.append("image").attr("xlink:href",path).attr("width",900).attr("height",400)
+        var svg=d3.select("#sevenpic").append("svg").attr("width",300).attr("height",400).attr("id","img7").style("border","solid 1px").style("position","relative").style("left","15")
+        path="./img/Rank/"+fn+".png"    
+        svg.append("image").attr("xlink:href",'./img/WBIAS.png').attr("width",300).attr("height",400)}
+    else if(sel=="WOOD")
+    {
+        d3.select("#lastdiv").style("position","relative").style("top","0px")
+        var svg=d3.select("#sevenpic").append("svg").attr("width",900).attr("height",400).attr("id","img7").style("border","solid 1px")
+        path="./img/Rank/"+fn+".png"
+        svg.append("image").attr("xlink:href",path).attr("width",900).attr("height",400)
+        var svg=d3.select("#sevenpic").append("svg").attr("width",300).attr("height",400).attr("id","img7").style("border","solid 1px").style("position","relative").style("left","15")
+        path="./img/Rank/"+fn+".png"    
+        svg.append("image").attr("xlink:href",'./img/WOOD.png').attr("width",300).attr("height",400)}
+    else{
+        d3.select("#lastdiv").style("position","relative").style("top","100px")
+        var svg=d3.select("#sevenpic").append("svg").attr("width",1200).attr("height",600).attr("id","img7").style("border","solid 1px")
+        path="./img/Rank/"+fn+".png"
+        svg.append("image").attr("xlink:href",path).attr("width",1200).attr("height",600)
+    }
 
 }
