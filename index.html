@@ -172,7 +172,7 @@ h1 {
     where moderators test it using the non-public <em>test</em> subset. Based on this performance, the model might appear on the leaderboard in a ranked position.
   </p>
   <p>
-    For example, Figure 1 has a screenshot of a <a href="https://leaderboard.allenai.org/physicaliqa/submissions/public">leaderboard from Allen AI</a> for August 2020. 
+    For example, Figure 1 (top) has a screenshot of a <a href="https://leaderboard.allenai.org/physicaliqa/submissions/public">leaderboard from Allen AI</a> for August 2020. 
     Listed are models in decreasing order of accuracy on a question answering dataset called Physical IQA. Question answering is the task of building systems to 
     automatically answer questions posed by humans in a natural language. Physical IQA contains questions regarding our knowledge about the Physical World. 
     <p>
@@ -238,10 +238,10 @@ h1 {
   </table>
 
   <div class="prose">
-    <em style="position:relative;top:-30px;left:300px;">Figure 1: Top- Allen AI Leaderboard for Physical QA, Bottom- Allen AI Stats of Model Performance Over Time</em>
+    <em style="position:relative;top:-30px;left:300px;">Figure 1: Top- Allen AI Leaderboard for Physical IQA, Bottom- Allen AI Stats of Model Performance Over Time</em>
 
     <p>
-            Also present on the page is a line chart (Figure 1, Bottom), which plots the accuracy of models submitted over time, using "human accuracy" on the dataset as the standard to beat. Human accuracy is measured by asking a set of people to answer the same test set questions provided to the model.
+            Also present on the page is a line chart (Figure 1, bottom), which plots the accuracy of models submitted over time, using "human accuracy" on the dataset as the standard to beat. Human accuracy is measured by asking a set of people to answer the same test set questions provided to the model.
 
     </p>
   <p>
@@ -370,7 +370,7 @@ patterns/skills that the model learns from the train set cannot directly be appl
 
 <p>
   To provide an overview, we first plot naive accuracy against WBias (Weighted Bias), WOOD (Weighted Out of Distribution), and WMProb (Weighted Maximum Probability) Scores in Figure 4. 
-  The models are ordered based on naive accuracy, but this ranking is not maintained across the alternate metrics. Let's a closer look at the three alternative 
+  The models are ordered based on naive accuracy, but this ranking is not maintained across the alternate metrics. Let's take a closer look at the three alternative 
   metrics to see how they evaluate model performance.
   </p> 
 
@@ -447,10 +447,10 @@ patterns/skills that the model learns from the train set cannot directly be appl
   <strong>Common Goal - Improving Generalization</strong>
 </p>
 <p style="position:relative;top:-50px;">
-  While test set performance gives an idea of how effectively models can solve in-distribution questions, recent works have shown that this does not guarantee performance on OOD 
+  While test set performance gives an idea of how effectively models can solve in-distribution questions, recent works have shown that this does not guarantee performance on OOD and adversarial
   data (<a href="https://arxiv.org/abs/1707.08945">Eykholt et al.,2018</a>; <a href="https://arxiv.org/abs/1707.07328">Jia and Liang, 2017</a>). Encountering OOD data is inevitable in
   the real world (<a href="https://dl.acm.org/doi/10.1109/CVPR.2011.5995347">Torralba et.al., 2011</a>); the metrics explain what makes 
-  real world OOD data cases of <em><b>very hard IID</b></em> in terms of bias (WBias), STS (WOOD), and MaxProb (maximum softmax probability).
+  real world data a case of <em><b>very hard IID</b></em> in terms of bias (WBias), STS (WOOD), and confidence (WMProb).
 </p>
 <p style="position:relative;top:-50px;">
   The common trend in the metrics we analyze is that irrespective of the hardness scale's basis, the three weighted metrics assign lower weight to "easy questions"
@@ -467,8 +467,7 @@ patterns/skills that the model learns from the train set cannot directly be appl
   real data can be mimicked. 
 </p>
 <p style="position:relative;top:-50px;">
-  Visualizing model performance over splits is therefore essential, especially for larger datasets. Visual interaction enables the creation of a dynamic leaderboard 
-  (in line with <a href="https://dynabench.org/">Dynabench</a>), that allows users to analyze split-wise performance, decide how to weight splits based on their application
+  Visualizing model performance over splits is therefore essential, especially for larger datasets. Visual interaction enables the creation of a dynamic leaderboard, that allows users to analyze split-wise performance, decide how to weight splits based on their application
   requirements and split-wise observations, and formulate different versions of evaluation metrics. This essentially makes for a low-resource one-stop-shop where users can 
   play around with models prior to deployment, to ensure better performance gurantees in the real world.
 </p>
