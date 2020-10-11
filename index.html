@@ -137,7 +137,7 @@ h1 {
 #top-sidebar {
   position: absolute;
   left: 850px;
-  width: 200px;
+  width: 300px;
   font-size: 10pt;
   color: #555
 }
@@ -154,7 +154,11 @@ h1 {
   <div class="prose" style="position:relative">
   <p><p>
   <div id="top-sidebar">
-    By Anjana Arunkumar, Swaroop Mishra, and Chris Bryan.
+    By:
+    <br/><br/> Anjana Arunkumar, <a href = "mailto: aarunku5@asu.edu">aarunku5@asu.edu</a>
+    <br/>Swaroop Mishra, <a href = "mailto: srmishr1@asu.edu">srmishr1@asu.edu</a>
+    <br/>Chris Bryan, <a href = "mailto: cbryan16@asu.edu">cbryan16@asu.edu</a>
+    <br/><br/>Arizona State University
     <p>
     This page is a companion to <a href="https://arxiv.org/abs/2007.06898">
     a line of work</a>, which introduces new fair and robust evaluation 
@@ -238,7 +242,7 @@ h1 {
   </table>
 
   <div class="prose">
-    <em style="position:relative;top:-30px;left:300px;">Figure 1: Top- Allen AI Leaderboard for Physical IQA, Bottom- Allen AI Stats of Model Performance Over Time</em>
+    <em style="position:relative;top:-5%;left:300px;">Figure 1: Top- Allen AI Leaderboard for Physical IQA, Bottom- Allen AI Stats of Model Performance Over Time</em>
 
     <p>
             Also present on the page is a line chart (Figure 1, bottom), which plots the accuracy of models submitted over time, using "human accuracy" on the dataset as the standard to beat. Human accuracy is measured by asking a set of people to answer the same test set questions provided to the model.
@@ -321,7 +325,7 @@ h1 {
 
 
 <div class="prose" style="position: relative;top:-50px;">
-  <em style="position:relative;top:-30px;left:300px;">Figure 2: Beeswarm plots showing model performance variation across different sample STS values</em>
+  <em style="position:relative;top:-5%;left:300px;">Figure 2: Beeswarm plots showing model performance variation across different sample STS values</em>
 
   <p>
 In Figure 2, we show how models perform (indicated by color) for samples of different difficulty levels. 
@@ -489,6 +493,7 @@ patterns/skills that the model learns from the train set cannot directly be appl
 <em style="position:relative;top:-800px;left:840px;">Figure 5: Different models use different amounts of effort for</em>
 <em style="position:relative;top:-780px;left:450px;">different difficulties (Left). Weights are assigned to equitably</em>
 <em style="position:relative;top:-780px;left:870px;">evaluate different levels of sample difficulty (right).</em>
+<em style="position:relative;top:-760px;left:570px;">(Taken from Mehrabi et.al., 2020)</em>
 </div>
 
 <img src="./img/ee.png" style="max-width:400px;border:thin;position:relative;top:-1270px;left:1050px;"/>
@@ -559,7 +564,7 @@ patterns/skills that the model learns from the train set cannot directly be appl
 </table>
 
 
-<em style="position:relative;top:-1050px;left:370px;width:200px;">Figure 7: Beeswarm plots showing model performance variation among different clusters of samples based on WBias (predictability) values</em>
+<em style="position:relative;top:-1020px;left:370px;width:200px;">Figure 7: Beeswarm plots showing model performance variation among different clusters of samples based on WBias (predictability) values</em>
 
 <div class="prose" style="position:relative;top:-1020px;">
 
@@ -571,8 +576,8 @@ patterns/skills that the model learns from the train set cannot directly be appl
     agents (as shown in Figure 8) are likely to experience a varying range of input, and thus WOOD Score is an important facet of model evaluation. In essence, 
     WOOD tries to <em>estimate the range of samples that your model should be able handle</em>.</p>
     <img src="./img/Siri.png" style="max-width:300px;border:thin;position:relative;top:-130px;left:850px;"/>
-    <em style="position:relative;top:-110px;left:550px;">Figure 8: Conversational Agents like Siri have </em>
-    <em style="position:relative;top:-95px;left:290px;">to parse a varying range of input</em>
+    <em style="position:relative;top:-100px;left:550px;">Figure 8: Conversational Agents like Siri have </em>
+    <em style="position:relative;top:-85px;left:290px;">to parse a varying input range</em>
 
 
   </div>
@@ -641,11 +646,12 @@ patterns/skills that the model learns from the train set cannot directly be appl
      <td width=30>&nbsp;</td>
    </tr>
   </table>
-  <em style="position:relative;top:-1690px;left:370px;width:200px;">Figure 9: Beeswarm plots showing model performance variation among different clusters of samples based on WOOD (STS) values</em>
+  <em style="position:relative;top:-1660px;left:370px;width:200px;">Figure 9: Beeswarm plots showing model performance variation among different clusters of samples based on WOOD (STS) values</em>
 
-  <div class="prose" style="position:relative;top:-1700px;">
-    <em style="position:relative;top:180px;left:850px;">Figure 10: Classification models can answer incorrectly </em>
-    <em style="position:relative;top:195px;left:450px;"> with high confidence- here a tilted cat head is labelled as guacamole</em>
+  <div class="prose" style="position:relative;top:-1660px;">
+    <em style="position:relative;top:190px;left:850px;">Figure 10: Classification models can answer incorrectly </em>
+    <em style="position:relative;top:205px;left:475px;"> with high confidence- a tilted cat is labelled as guacamole.</em>
+    <em style="position:relative;top:205px;left:900px;white-space: nowrap; ">Taken from Athalye et.al. (2018).</em>
     
   <p>
     <strong>WMProb, or weighted maximum probability score</strong>, weights predictions according to the model confidence. Unfortunately, models sometimes provide 
@@ -661,7 +667,7 @@ patterns/skills that the model learns from the train set cannot directly be appl
 
     </div>
     
-    <table style="position:relative;top:-1880px;">
+    <table style="position:relative;top:-1800px;">
       <tr>
        <td>&nbsp;</td>
        <td colspan=3>
@@ -727,10 +733,10 @@ patterns/skills that the model learns from the train set cannot directly be appl
        <td width=30>&nbsp;</td>
      </tr>
     </table>
-    <em style="position:relative;top:-2440px;left:370px;width:200px;">Figure 11: Beeswarm plots showing model performance variation among different clusters of samples based on WMProb (Confidence) values</em>
+    <em style="position:relative;top:-2380px;left:370px;width:200px;">Figure 11: Beeswarm plots showing model performance variation among different clusters of samples based on WMProb (Confidence) values</em>
 
     
-    <div class="prose" style="position:relative;top:-2410px;">
+    <div class="prose" style="position:relative;top:-2360px;">
 <p>For better understanding of the case studies, we walk you through how WOOD score is calculated below. WBias (ranks based on confidence) and 
       WMProb (ranks based on predictability of samples) are similarly calculated (with the exception of step (ii)).</p>
 
@@ -752,7 +758,7 @@ patterns/skills that the model learns from the train set cannot directly be appl
     
     </div>
   
-    <table style="position:relative;top:-2450px;">
+    <table style="position:relative;top:-2410px;">
       <tr>
        <td>&nbsp;</td>
        <td colspan=3>
@@ -827,13 +833,13 @@ patterns/skills that the model learns from the train set cannot directly be appl
      </tr>
     </table>
     <div>
-    <em style="position:relative;top:-2450px;left:370px;">Figure 12: Top- Beeswarm plots showing model performance variation among different clusters of samples based on WOOD / WMProb / WBias.</em>
-    <em style="position:relative;top:-2430px;left:-490px;">Bottom- Bar Charts show accuracy values for models, and parallel plots show (a) number of incorrectly classfied samples, </em>
-    <em style="position:relative;top:-2430px;left:400px;">and (b) model performance, per split. Line Charts compare WOOD/WBias/WMProb with raw accuracy, and show how ranking changes.</em>
+    <em style="position:relative;top:-2410px;left:370px;">Figure 12: Top- Beeswarm plots showing model performance variation among different clusters of samples based on WOOD / WMProb / WBias.</em>
+    <em style="position:relative;top:-2390px;left:-490px;">Bottom- Bar Charts show accuracy values for models, and parallel plots show (a) number of incorrectly classfied samples, </em>
+    <em style="position:relative;top:-2390px;left:400px;">and (b) model performance, per split. Line Charts compare WOOD/WBias/WMProb with raw accuracy, and show how ranking changes.</em>
   </div>
     
     
-    <div class="prose" style="position:relative;top:-2400px;">
+    <div class="prose" style="position:relative;top:-2360px;">
     
       <h1 id="conclusion-section" >Improving Machine Learning Systems</h1>
     
@@ -867,6 +873,12 @@ patterns/skills that the model learns from the train set cannot directly be appl
       <li>
         A. Torralba and A. A. Efros. 2011. Unbiased look at dataset bias. 
         <i>In Proceedings of the 2011 IEEE Conference on Computer Vision and Pattern Recognition (CVPR '11). IEEE Computer Society, USA, 1521-1528. DOI:https://doi.org/10.1109/CVPR.2011.5995347 </i>
+      </li>
+      <li>
+        Mehrabi, Ninareh, Yuzhong Huang, and Fred Morstatter. "Statistical Equity: A Fairness Classification Objective." <i>arXiv preprint arXiv:2005.07293 (2020).</i>
+      </li>
+      <li>
+        Athalye, Anish, et al. "Synthesizing robust adversarial examples." <i>International conference on machine learning. PMLR, 2018.</i>
       </li>
     </ul>
 
