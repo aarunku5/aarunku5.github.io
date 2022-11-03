@@ -5,6 +5,44 @@ permalink: /publications/
 author_profile: true
 ---
 
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+Full Papers (Journal, Conference, and Symposium)
+======
+
+<div class="container">
+  <div class="row">
+    <div class="col-2 my-2">
+      <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2022pmutracker.png" data-holder-rendered="true">
+    </div>
+    <div class="col-10 my-2">
+      Anjana Arunkumar, Andrea Pinceti, Lalitha Sankar, and Chris Bryan.
+      <b>PMU Tracker: A Visualization Platform for Epicentric Event Propagation Analysis in the Power Grid</b>
+      <i> in press, accepted to IEEE Vis 2022</i>.
+      <br/>
+      <a class="link-danger" href="https://ieeexplore.ieee.org/abstract/document/9903279" target="_blank">DOI</a>|<a>Paper</a>
+    </div>
+    <div class="col-2 my-2">
+      <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2022pmutracker.png" data-holder-rendered="true">
+    </div>
+    <div class="col-10 my-2">
+      Anjana Arunkumar, Andrea Pinceti, Lalitha Sankar, and Chris Bryan.
+      <b>PMU Tracker: A Visualization Platform for Epicentric Event Propagation Analysis in the Power Grid</b>
+      <i> in press, accepted to IEEE Vis 2022</i>.
+      <br/>
+      <a class="link-danger" href="https://ieeexplore.ieee.org/abstract/document/9903279" target="_blank">DOI</a>|<a>Paper</a>
+    </div>
+
+
+
+  </div>
+</div>
+
+Workshop Papers, Short Papers, and Other
+======
+
+
+
 {% if author.googlescholar %}
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
