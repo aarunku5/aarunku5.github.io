@@ -88,6 +88,17 @@ author_profile: true
       <i> accepted to Decision Sciences Institute Annual Conference 2022</i>.
       <br/>
     </div> 
+      <div class="col-2 my-2">
+      <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2021bayesian.png" data-holder-rendered="true">
+    </div>
+    <div class="col-10 my-2">
+      Anjana Arunkumar, Shashank Ginjpalli, and Chris Bryan.
+      <b>Bayesian Modelling of Alluvial Diagram Complexity</b>
+      <i> accepted to 2021 IEEE Visualization Conference (VIS), pp 51-55, 2021.</i>.
+      <br/>
+      <a class="link-danger" href="https://ieeexplore.ieee.org/abstract/document/9623282" target="_blank">DOI</a> | <a href="https://aarunku5.github.io/files/arunkumar2021bayesian.pdf">Paper</a>
+    </div> 
+
 
   </div>
 </div>
