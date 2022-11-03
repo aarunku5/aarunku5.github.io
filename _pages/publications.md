@@ -20,21 +20,18 @@ Full Papers (Journal, Conference, and Symposium)
       <b>PMU Tracker: A Visualization Platform for Epicentric Event Propagation Analysis in the Power Grid</b>
       <i> in press, accepted to IEEE Vis 2022</i>.
       <br/>
-      <a class="link-danger" href="https://ieeexplore.ieee.org/abstract/document/9903279" target="_blank">DOI</a>|<a href="https://aarunku5.github.io/files/arunkumar2022pmutracker.pdf">Paper</a>
+      <a class="link-danger" href="https://ieeexplore.ieee.org/abstract/document/9903279" target="_blank">DOI</a> | <a href="https://aarunku5.github.io/files/arunkumar2022pmutracker.pdf">Paper</a>
     </div>
     <div class="col-2 my-2">
-      <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2022pmutracker.png" data-holder-rendered="true">
+      <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2022pmuvis.png" data-holder-rendered="true">
     </div>
     <div class="col-10 my-2">
-      Anjana Arunkumar, Andrea Pinceti, Lalitha Sankar, and Chris Bryan.
-      <b>PMU Tracker: A Visualization Platform for Epicentric Event Propagation Analysis in the Power Grid</b>
-      <i> in press, accepted to IEEE Vis 2022</i>.
+      Anjana Arunkumar, Nitin Gupta, Andrea Pinceti, Lalitha Sankar, and Chris Bryan,
+      <b>PMUVis: A Large Scale Platform to Assist Power System Operators in a Smart Grid</b>
+      <i> IEEE Computer Graphics and Applications, 2022</i>.
       <br/>
-      <a class="link-danger" href="https://ieeexplore.ieee.org/abstract/document/9903279" target="_blank">DOI</a>|<a href="https://aarunku5.github.io/files/arunkumar2022pmutracker.pdf">Paper</a>
+      <a class="link-danger" href="https://ieeexplore.ieee.org/document/9765704" target="_blank">DOI</a> | <a href="https://aarunku5.github.io/files/arunkumar2022pmuvis.pdf">Paper</a>
     </div>    
-
-
-
 
   </div>
 </div>
