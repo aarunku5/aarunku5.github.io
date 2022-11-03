@@ -27,8 +27,12 @@ news
       <td>Our work <i>Bayesian Modelling of Alluvial Diagram Complexity</i> has been accepted as a short paper in IEEE VIS 2021</td>
     </tr>
     <tr>
-      <td><b>Oct 2021</b></td>
-      <td>Our work <i>Bayesian Modelling of Alluvial Diagram Complexity</i> has been accepted as a short paper in IEEE VIS 2021</td>
+      <td><b>Oct 2020</b></td>
+      <td>Our submission <i>TotemFinder: A Visual Analytics Approach for Image-based Key Players Identification </i> won an honorable mention in the VAST Challenge</td>
+    </tr>
+    <tr>
+      <td><b>Oct 2020</b></td>
+      <td>Our submission <i>A Visual Exploration of Fair Evaluation for ML - Bridging the Gap Between Research and the Real World </i> was accepted to the VisxAI workshop</td>
     </tr>
 </tbody>
 </table>
