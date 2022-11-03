@@ -20,20 +20,59 @@ news
 ======
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <div style="max-height: 200px; overflow-y:scroll;">
-<table class="table table-striped table-hover table-borderless table-secondary" style="table-layout:fixed; width: 100%;">
+<table class="table table-striped table-hover table-borderless" style="table-layout:fixed; width: 100%;">
 <tbody>
+    <tr>
+      <td><b>Oct 2022</b></td>
+      <td>Our work <i>PMU Tracker: A Visualization Platform for Epicentric Event Propagation Analysis in the Power Grid</i> has been accepted as a full paper in IEEE VIS 2022</td>
+    </tr>
+    <tr>
+      <td><b>April 2022</b></td>
+      <td>Our work <i>Benchmarking generalization via in-context instructions on 1,600+ language tasks</i> has been accepted as a full paper in EMNLP 2022</td>
+    </tr>
+    <tr>
+      <td><b>April 2022</b></td>
+      <td>Our work <i>PMUVis: A Large Scale Platform to Assist Power System Operators in a Smart Grid</i> has been published in IEEE Computer Graphics and  Applications 2022</td>
+    </tr>
     <tr>
       <td><b>Oct 2021</b></td>
       <td>Our work <i>Bayesian Modelling of Alluvial Diagram Complexity</i> has been accepted as a short paper in IEEE VIS 2021</td>
     </tr>
     <tr>
-      <td><b>Oct 2020</b></td>
-      <td>Our submission <i>TotemFinder: A Visual Analytics Approach for Image-based Key Players Identification </i> won an honorable mention in the VAST Challenge</td>
+      <td><b>Feb 2021</b></td>
+      <td>Our work <i>How Robust are Model Rankings : A Leaderboard Customization Approach for Equitable Evaluation</i> has been accepted as a full paper in AAAI 2021</td>
     </tr>
     <tr>
       <td><b>Oct 2020</b></td>
-      <td>Our submission <i>A Visual Exploration of Fair Evaluation for ML - Bridging the Gap Between Research and the Real World </i> was accepted to the VisxAI workshop</td>
+      <td>Our submission <i>TotemFinder: A Visual Analytics Approach for Image-based Key Players Identification </i> won an honorable mention in the VAST Challenge, in IEEE Vis 2020</td>
     </tr>
+    <tr>
+      <td><b>Oct 2020</b></td>
+      <td>Our submission <i>A Visual Exploration of Fair Evaluation for ML - Bridging the Gap Between Research and the Real World </i> has been accepted to the VisxAI workshop, in IEEE Vis 2020</td>
+    </tr>
+    <tr>
+      <td><b>July 2020</b></td>
+      <td>Our submissions <i>DQI: A Guide to Benchmark Evaluation </i> and <i>Our Evaluation Metric Needs an Update to Encourage Generalization</i> have been accepted to the Uncertainty & Robustness in Deep Learning Workshop, in ICML 2020</td>
+    </tr>    
+    <tr>
+      <td><b>December 2020</b></td>
+      <td>Our submission <i>VAIDA: An Educative Benchmark Creation Paradigm using Visual Analytics for Interactively Discouraging Artifacts</i> has been accepted to the Crowd Science Workshop: Remoteness, Fairness, and Mechanisms as Challenges of Data Supply by Humans for Automation Workshop, in NeurIPS 2020</td>
+    </tr>    
+    <tr>
+      <td><b>December 2020</b></td>
+      <td>Our submission <i>Front Contribution instead of Back Propagation</i> has been accepted to the Beyond Backpropagation: Novel Ideas for Training Neural Architectures, in NeurIPS 2020</td>
+    </tr>    
+    <tr>
+      <td><b>December 2020</b></td>
+      <td>Our submission <i>Real-Time Visual Feedback for Educative Benchmark Creation: A Human-and Metric-in-the-Loop Workflow </i> has been accepted to the HAMLETS (Human And Machine in-the-Loop Evaluation and Learning Strategies) Workshop, in NeurIPS 2020</td>
+    </tr>    
+    <tr>
+      <td><b>December 2020</b></td>
+      <td>Our submission <i>Is High Quality Data All You Need? </i> has been accepted to The pre-registration experiment: an alternative publication model for machine learning research Workshop, in NeurIPS 2020</td>
+    </tr>    
+     
 </tbody>
 </table>
 </div>
+
+
