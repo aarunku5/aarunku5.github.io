@@ -20,7 +20,7 @@ Full Papers (Journal, Conference, and Symposium)
       <b>PMU Tracker: A Visualization Platform for Epicentric Event Propagation Analysis in the Power Grid</b>
       <i> in press, accepted to IEEE Vis 2022</i>.
       <br/>
-      <a class="link-danger" href="https://ieeexplore.ieee.org/abstract/document/9903279" target="_blank">DOI</a>|<a>Paper</a>
+      <a class="link-danger" href="https://ieeexplore.ieee.org/abstract/document/9903279" target="_blank">DOI</a>|<a href="https://aarunku5.github.io/files/arunkumar2022pmutracker.pdf">Paper</a>
     </div>
     <div class="col-2 my-2">
       <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2022pmutracker.png" data-holder-rendered="true">
@@ -30,8 +30,9 @@ Full Papers (Journal, Conference, and Symposium)
       <b>PMU Tracker: A Visualization Platform for Epicentric Event Propagation Analysis in the Power Grid</b>
       <i> in press, accepted to IEEE Vis 2022</i>.
       <br/>
-      <a class="link-danger" href="https://ieeexplore.ieee.org/abstract/document/9903279" target="_blank">DOI</a>|<a>Paper</a>
-    </div>
+      <a class="link-danger" href="https://ieeexplore.ieee.org/abstract/document/9903279" target="_blank">DOI</a>|<a href="https://aarunku5.github.io/files/arunkumar2022pmutracker.pdf">Paper</a>
+    </div>    
+
 
 
 
