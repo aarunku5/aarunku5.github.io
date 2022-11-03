@@ -7,7 +7,9 @@ author_profile: true
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-##Full Papers (Journal, Conference, and Symposium)
+<hr>
+
+<h3 class="mt-4">Full Papers (Journal, Conference, and Symposium)</h3>
 
 <div class="container">
   <div class="row">
@@ -35,7 +37,9 @@ author_profile: true
   </div>
 </div>
 
-##Workshop Papers, Short Papers, and Other
+<hr>
+
+<h3 class="mt-4">Workshop Papers, Short Papers, and Other</h3>
 
 
 

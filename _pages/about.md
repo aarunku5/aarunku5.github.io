@@ -16,7 +16,7 @@ Other related areas I'm excited about include developing visualization recommend
 
 I am currently looking for a __research internship__ for Summer 2023. I'm always open to discuss new ideas and collaborate, do email to chat!
 
-news
+News
 ======
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <div style="max-height: 200px; overflow-y:scroll;">
@@ -98,10 +98,11 @@ news
 </table>
 </div>
 <br/>
+<br/>
+<br/>
 
 
-
-selected publications
+Selected Publications
 ======
 
 <div class="container">
