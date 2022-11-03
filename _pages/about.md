@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "@icon-duck Anjana Arunkumar"
+title: "@icon Anjana Arunkumar"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
