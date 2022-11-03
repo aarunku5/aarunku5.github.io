@@ -54,16 +54,40 @@ author_profile: true
 <div class="container">
   <div class="row">
     <div class="col-2 my-2">
-      <img class="border rounded shadow img-fluid" src="/images/papers/wang2022instructions.png" data-holder-rendered="true">
+      <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2022dsi-1.png" data-holder-rendered="true">
     </div>
     <div class="col-10 my-2">
-      Yizhong Wang, Swaroop Mishra, Pegah Alipoormolabashi, Yeganeh Kordi, Amirreza Mirzaei, Anjana Arunkumar, and 35 others.
-      <b>Benchmarking generalization via in-context instructions on 1,600+ language tasks</b>
-      <i> in press, accepted to EMNLP 2022</i>.
-      <br/>
-      <a href="https://aarunku5.github.io/files/wang2022instructions.pdf">arXiv preprint</a>
+      Anjana Arunkumar, Daniel Ortiz, and Arunkumar Madapusi.
+      <b>Examining the Effect of Visual Redundancy on the Understanding of Visualizations in Procurement and Sourcing</b>
+      <i> accepted to Decision Sciences Institute Annual Conference 2022</i>.
     </div>
-  
+    <div class="col-2 my-2">
+      <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2022dsi-2.png" data-holder-rendered="true">
+    </div>
+    <div class="col-10 my-2">
+      Anjana Arunkumar, Daniel Ortiz, and Arunkumar Madapusi.
+      <b>Examining the Effect of Reconfiguration Interactions on the Understanding of Anomalies in Supply Chain Management</b>
+      <i> accepted to Decision Sciences Institute Annual Conference 2022</i>.
+      <br/>
+    </div>
+     <div class="col-2 my-2">
+      <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2022mwdsi-1.png" data-holder-rendered="true">
+    </div>
+    <div class="col-10 my-2">
+      Anjana Arunkumar, Daniel Ortiz, and Arunkumar Madapusi.
+      <b>Evaluation of Visual Uncertainty Representations in Schedule Risk Analysis</b>
+      <i> accepted to Decision Sciences Institute Annual Conference 2022</i>.
+      <br/>
+    </div>
+      <div class="col-2 my-2">
+      <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2022mwdsi-2.png" data-holder-rendered="true">
+    </div>
+    <div class="col-10 my-2">
+      Anjana Arunkumar, Daniel Ortiz, and Arunkumar Madapusi.
+      <b>Modelling the Complexity of Risk Centered Supply Chain Network Visualization</b>
+      <i> accepted to Decision Sciences Institute Annual Conference 2022</i>.
+      <br/>
+    </div> 
 
   </div>
 </div>
