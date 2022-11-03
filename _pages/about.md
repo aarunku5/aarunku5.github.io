@@ -18,7 +18,7 @@ I am currently looking for a __research internship__ for Summer 2023. I'm always
 
 news
 ======
-
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <div style="max-height: 200px; overflow-y:scroll;">
 <table class="table table-striped table-hover table-borderless table-secondary" style="table-layout:fixed; width: 100%;">
 <tbody>
@@ -30,5 +30,6 @@ news
       <td><b>Oct 2021</b></td>
       <td>Our work <i>Bayesian Modelling of Alluvial Diagram Complexity</i> has been accepted as a short paper in IEEE VIS 2021</td>
     </tr>
+</tbody>
 </table>
 </div>
