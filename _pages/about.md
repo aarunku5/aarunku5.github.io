@@ -1,15 +1,12 @@
 ---
 permalink: /
-title: "@fa-duotone fa-duck Anjana Arunkumar"
+title: "@duck Anjana Arunkumar"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-
-About Me
-======
 
 I am a 4th year PhD student in the School of Computing and Augmented Intelligence, Arizona State University. I'm a member of the Sonoran Visualization Laboratory (SVL @ ASU), supervised by [Chris Bryan](https://chrisbryan.github.io/).
 
