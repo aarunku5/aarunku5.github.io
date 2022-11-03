@@ -22,22 +22,38 @@ news
 <div style="max-height: 200px; overflow-y:scroll;">
 <table class="table table-striped table-hover table-borderless" style="table-layout:fixed; width: 100%;">
 <tbody>
+      <tr>
+      <td><b>Nov 2022</b></td>
+      <td>Our submissions <i>Examining the Effect of Visual Redundancy on the Understanding of Visualizations in Procurement and Sourcing, </i> and <i>Examining the Effect of Reconfiguration Interactions on the Understanding of Anomalies in Supply Chain Management</i> have been accepted to Decision Sciences Institute Annual Conference 2022 </td>
+    </tr>    
     <tr>
       <td><b>Oct 2022</b></td>
       <td>Our work <i>PMU Tracker: A Visualization Platform for Epicentric Event Propagation Analysis in the Power Grid</i> has been accepted as a full paper in IEEE VIS 2022</td>
     </tr>
     <tr>
-      <td><b>April 2022</b></td>
+      <td><b>Apr 2022</b></td>
       <td>Our work <i>Benchmarking generalization via in-context instructions on 1,600+ language tasks</i> has been accepted as a full paper in EMNLP 2022</td>
     </tr>
     <tr>
-      <td><b>April 2022</b></td>
+      <td><b>Apr 2022</b></td>
       <td>Our work <i>PMUVis: A Large Scale Platform to Assist Power System Operators in a Smart Grid</i> has been published in IEEE Computer Graphics and  Applications 2022</td>
     </tr>
+      <tr>
+      <td><b>Apr 2022</b></td>
+      <td>Our submissions <i>Evaluation of Visual Uncertainty Representations in Schedule Risk Analysis, </i> and <i>Modelling the Complexity of Risk Centered Supply Chain Network Visualization</i> have been accepted to Midwest Decision Sciences Institute Annual Conference 2022 </td>
+    </tr>    
+      <tr>
+      <td><b>Nov 2021</b></td>
+      <td>Our submissions <i>Impact of Uncertainty Representation on Decision Making for Business Network Visualization, </i><i>Bayesian Modelling of Uncertainty in Schedule Risk Analysis using Gantt Charts</i>, and <i>Modelling the Complexity of Supply Chain Network Visualization</i> have been accepted to Decision Sciences Institute Annual Conference 2021 </td>
+    </tr>    
     <tr>
       <td><b>Oct 2021</b></td>
       <td>Our work <i>Bayesian Modelling of Alluvial Diagram Complexity</i> has been accepted as a short paper in IEEE VIS 2021</td>
     </tr>
+    <tr>
+    <td><b>Mar 2021</b></td>
+    <td>Our submission <i>Strategy-Enterprise System Alignment and Firm Performance</i> has been accepted to Northeast Decision Sciences Institute Annual Conference 2021 </td>
+  </tr>    
     <tr>
       <td><b>Feb 2021</b></td>
       <td>Our work <i>How Robust are Model Rankings : A Leaderboard Customization Approach for Equitable Evaluation</i> has been accepted as a full paper in AAAI 2021</td>
@@ -55,22 +71,29 @@ news
       <td>Our submissions <i>DQI: A Guide to Benchmark Evaluation </i> and <i>Our Evaluation Metric Needs an Update to Encourage Generalization</i> have been accepted to the Uncertainty & Robustness in Deep Learning Workshop, in ICML 2020</td>
     </tr>    
     <tr>
-      <td><b>December 2020</b></td>
+      <td><b>Dec 2020</b></td>
       <td>Our submission <i>VAIDA: An Educative Benchmark Creation Paradigm using Visual Analytics for Interactively Discouraging Artifacts</i> has been accepted to the Crowd Science Workshop: Remoteness, Fairness, and Mechanisms as Challenges of Data Supply by Humans for Automation Workshop, in NeurIPS 2020</td>
     </tr>    
     <tr>
-      <td><b>December 2020</b></td>
+      <td><b>Dec 2020</b></td>
       <td>Our submission <i>Front Contribution instead of Back Propagation</i> has been accepted to the Beyond Backpropagation: Novel Ideas for Training Neural Architectures, in NeurIPS 2020</td>
     </tr>    
     <tr>
-      <td><b>December 2020</b></td>
+      <td><b>Dec 2020</b></td>
       <td>Our submission <i>Real-Time Visual Feedback for Educative Benchmark Creation: A Human-and Metric-in-the-Loop Workflow </i> has been accepted to the HAMLETS (Human And Machine in-the-Loop Evaluation and Learning Strategies) Workshop, in NeurIPS 2020</td>
     </tr>    
     <tr>
-      <td><b>December 2020</b></td>
+      <td><b>Dec 2020</b></td>
       <td>Our submission <i>Is High Quality Data All You Need? </i> has been accepted to The pre-registration experiment: an alternative publication model for machine learning research Workshop, in NeurIPS 2020</td>
     </tr>    
-     
+    <tr>
+      <td><b>Nov 2020</b></td>
+      <td>Our submissions <i>Investigating the Influence of Top Management Support in Systemic Enterprise System Deployments, </i><i>Examining Data Visualization's Impact on Decision Making</i>, and <i>Investigating the Influence of Chart Embellishment on Decision Making</i> have been accepted to Decision Sciences Institute Annual Conference 2020 </td>
+    </tr>    
+    <tr>
+      <td><b>Nov 2019</b></td>
+      <td>Our submissions <i>Abstractive Summarization Through Sentiment Analysis Of User Product Reviews - An RNN Approach</i>, <i>Integration Mechanisms, Absorptive Capacity, & Enterprise Systems, </i><i>Relational Capital & Enterprise Systems</i>, and <i>The Role of Consultants in Enterprise Systems</i> have been accepted to Decision Sciences Institute Annual Conference 2019 </td>
+    </tr>         
 </tbody>
 </table>
 </div>
