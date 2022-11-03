@@ -19,6 +19,20 @@ I am currently looking for a __research internship__ for Summer 2023. I'm always
 news
 ======
 
+<div style="max-height: 200px; overflow-y:scroll;">
+<table class="table table-striped table-hover table-borderless table-secondary">
+<tbody>
+    <tr>
+      <td><b>Oct 2021</b></td>
+      <td>Our work <i>Bayesian Modelling of Alluvial Diagram Complexity</i> has been accepted as a short paper in IEEE VIS 2021</td>
+    </tr>
+    <tr>
+      <td><b>Oct 2021</b></td>
+      <td>Our work <i>Bayesian Modelling of Alluvial Diagram Complexity</i> has been accepted as a short paper in IEEE VIS 2021</td>
+    </tr>
+</table>
+</div>
+
 <pre class="table" style="max-height: 100px; overflow-y:scroll;">
 
   ### Header
