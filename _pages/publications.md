@@ -43,7 +43,16 @@ author_profile: true
       <br/>
       <a href="https://aarunku5.github.io/files/wang2022instructions.pdf">arXiv preprint</a>
     </div>    
-
+      <div class="col-2 my-2">
+      <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2021leaderboard.png" data-holder-rendered="true">
+    </div>
+    <div class="col-10 my-2">
+      Anjana Arunkumar, Shashank Ginjpalli, and Chris Bryan.
+      <b>Bayesian Modelling of Alluvial Diagram Complexity</b>
+      <i> accepted to 2021 IEEE Visualization Conference (VIS), pp 51-55, 2021.</i>.
+      <br/>
+      <a class="link-danger" href="https://ojs.aaai.org/index.php/AAAI/article/view/17599" target="_blank">DOI</a> | <a href="https://aarunku5.github.io/files/arunkumar2021leaderboard.pdf">Paper</a>
+    </div> 
   </div>
 </div>
 
