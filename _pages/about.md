@@ -32,23 +32,3 @@ news
     </tr>
 </table>
 </div>
-
-<pre class="table" style="max-height: 100px; overflow-y:scroll;">
-
-  ### Header
-
-  <div align="center"><b>Oct 2021</b> Our work <i>Bayesian Modelling of Alluvial Diagram Complexity</i> has been accepted as a short paper in IEEE VIS 2021</div>
-
-  <div align="center">...body...text...</div>
-
-  <div align="center">...body...text...</div>
-
-  <div align="center">...body...text...</div>
-
-  <div align="center">...body...text...</div>
-
-  <div align="center">...body...text...</div>
-
-  <div align="center">...body...text...</div>
-
-</pre>
