@@ -10,8 +10,8 @@ redirect_from:
 
 I am a 4th year PhD student in the School of Computing and Augmented Intelligence, Arizona State University. I'm a member of the Sonoran Visualization Laboratory (SVL @ ASU), supervised by [Chris Bryan](https://chrisbryan.github.io/).
 
-My research interests lie at the intersection of __visual cognition__, __natural language__, and __data visualization__. Specifically, I investigate how <i>visualization aesthetics and affordances</i> influence __decision-making__, and build visual analytics pipelines. I also have a background in exploring <i>bias in natural language models</i>, <i>learning from instructions/prompting</i>, and investigating the <i>influence of visualization techniques in supply chain and project management</i>. 
+My research interests lie at the intersection of <i>__visual cognition__</i>, <i>__natural language__</i>, and <i>__data visualization__</i>. Specifically, I investigate how <i>visualization aesthetics and affordances</i> influence <i>__decision-making__</i>, and build visual analytics pipelines. I also have a background in exploring bias in natural language models, learning from instructions/prompting, and investigating the influence of visualization techniques in supply chain and project management. 
 
-Other related areas I'm excited about include developing visualization recommendation systems based on natural language queries, investigating annotation effects in visualization, and visualizing uncertainty.
+Other related areas I'm excited about include developing visualization recommendation systems based on natural language queries, investigating annotation effects in visualizations, and visualizing uncertainty.
 
-I am currently looking for a research internship for Summer 2023. I'm always open to discuss new ideas and collaborate, do email to chat!
+I am currently looking for a <i>research internship</i> for Summer 2023. I'm always open to discuss new ideas and collaborate, do email to chat!
