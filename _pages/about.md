@@ -15,3 +15,7 @@ My research interests lie at the intersection of <i>__visual cognition__</i>, <i
 Other related areas I'm excited about include developing visualization recommendation systems based on natural language queries, investigating annotation effects in visualizations, and visualizing uncertainty.
 
 I am currently looking for a __research internship__ for Summer 2023. I'm always open to discuss new ideas and collaborate, do email to chat!
+
+news
+======
+
