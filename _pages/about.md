@@ -20,7 +20,7 @@ news
 ======
 
 <div style="max-height: 200px; overflow-y:scroll;">
-<table class="table table-striped table-hover table-borderless table-secondary">
+<table class="table table-striped table-hover table-borderless table-secondary" style="table-layout:fixed; width: 100%;">
 <tbody>
     <tr>
       <td><b>Oct 2021</b></td>
