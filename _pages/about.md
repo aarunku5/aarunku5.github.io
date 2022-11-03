@@ -19,3 +19,22 @@ I am currently looking for a __research internship__ for Summer 2023. I'm always
 news
 ======
 
+<pre class="table" style="max-height: 100px; overflow-y:scroll;">
+
+  ### Header
+
+  <div align="center">...body...text...</div>
+
+  <div align="center">...body...text...</div>
+
+  <div align="center">...body...text...</div>
+
+  <div align="center">...body...text...</div>
+
+  <div align="center">...body...text...</div>
+
+  <div align="center">...body...text...</div>
+
+  <div align="center">...body...text...</div>
+
+</pre>
