@@ -217,7 +217,40 @@ author_profile: true
       <br/>
       <a class="link-danger" href="https://beyondbackprop.github.io" target="_blank">Workshop Site</a> | <a href="https://aarunku5.github.io/files/mishra2020fcbp.pdf">Paper</a>
     </div> 
-
+    <div class="col-2 my-2">
+      <img class="border rounded shadow img-fluid" src="/images/papers/mishra2020prereg.png" data-holder-rendered="true">
+    </div>
+    <div class="col-10 my-2">
+      Swaroop Mishra, Anjana Arunkumar, and Bhavdeep Sachdeva. 
+      <b>Is High Quality Data All You Need?</b>
+      <i> accepted to The pre-registration experiment: an alternative publication model for machine learning research (Workshop), NeurIPS, 2020</i>.
+      <br/>
+      <a class="link-danger" href="https://preregister.science/neurips2020.html" target="_blank">Workshop Site</a> | <a href="https://aarunku5.github.io/files/mishra2020prereg.pdf">Paper</a>
+    </div> 
+    <div class="col-2 my-2">
+      <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2020dsi-1.png" data-holder-rendered="true">
+    </div>
+    <div class="col-10 my-2">
+      Anjana Arunkumar and Arunkumar Madapusi.
+      <b>Investigating the Influence of Top Management Support in Systemic Enterprise System Deployments</b>
+      <i> accepted to Decision Sciences Institute Annual Conference 2020</i>.
+    </div>
+    <div class="col-2 my-2">
+      <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2020dsi-2.png" data-holder-rendered="true">
+    </div>
+    <div class="col-10 my-2">
+      Anjana Arunkumar and Arunkumar Madapusi.
+      <b>Examining Data Visualization’s Impact on Decision Making</b>
+      <i> accepted to Decision Sciences Institute Annual Conference 2020</i>.
+    </div>
+    <div class="col-2 my-2">
+      <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2020dsi-3.png" data-holder-rendered="true">
+    </div>
+    <div class="col-10 my-2">
+      Anjana Arunkumar and Arunkumar Madapusi.
+      <b>Investigating the Influence of Chart Embellishment on Decision Making</b>
+      <i> accepted to Decision Sciences Institute Annual Conference 2020</i>.
+    </div>    
 
   </div>
 </div>
@@ -233,8 +266,3 @@ author_profile: true
 {% endfor %}
 
 
-
-•	Swaroop Mishra, Anjana Arunkumar, and Bhavdeep Sachdeva. Is High Quality Data All You Need? The pre-registration experiment: an alternative publication model for machine learning research, NeurIPS, 2020 (workshop).
-•	Anjana Arunkumar and Arunkumar Madapusi.  Investigating the Influence of Top Management Support in Systemic Enterprise System Deployments.  Decision Sciences Institute Annual Meeting, 2020.
-•	Anjana Arunkumar and Arunkumar Madapusi.  Examining Data Visualization’s Impact on Decision Making. Decision Sciences Institute Annual Meeting, 2020.
-•	Anjana Arunkumar and Arunkumar Madapusi.  Investigating the Influence of Chart Embellishment on Decision Making. Decision Sciences Institute Annual Meeting, 2020.
