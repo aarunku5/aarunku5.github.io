@@ -155,7 +155,7 @@ author_profile: true
       <b>A Visual Exploration of Fair Evaluation for ML - Bridging the Gap Between Research and the Real World</b>
       <i> accepted to Visualization for AI Explainability (VISxAI workshop), IEEE Visualization Conference (VIS) 2020 </i>.
       <br/>
-      <a class="link-danger" href="https://visxai.io/2020.html">Workshop Site</a> | <a class="link-danger" href="https://aarunku5.github.io/files/arunkumar2021leaderboard.pdf" target="_blank">Base Paper</a> | <a href="https://aarunku5.github.io/files/arunkumar2021visxai/index.html">Data Story</a>
+      <a class="link-danger" href="https://visxai.io/2020.html">Workshop Site</a> | <a href="https://aarunku5.github.io/files/arunkumar2021visxai/index.html">Data Story</a> | <a class="link-danger" href="https://aarunku5.github.io/files/arunkumar2021leaderboard.pdf" target="_blank">Base Paper</a>
     </div> 
     <div class="col-2 my-2">
       <img class="border rounded shadow img-fluid" src="/images/papers/huang2020totemfinder.png" data-holder-rendered="true">
@@ -187,7 +187,36 @@ author_profile: true
       <br/>
       <a class="link-danger" href="https://sites.google.com/view/udlworkshop2020/home?authuser=0" target="_blank">Workshop Site</a> | <a href="https://aarunku5.github.io/files/mishra2020udl-2.pdf">arXiv preprint</a>
     </div> 
-
+    <div class="col-2 my-2">
+      <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2020crowd.png" data-holder-rendered="true">
+    </div>
+    <div class="col-10 my-2">
+      Swaroop Mishra, Anjana Arunkumar, Bhavdeep Sachdeva, Chris Bryan and Chitta Baral. 
+      <b>VAIDA: An Educative Benchmark Creation Paradigm using Visual Analytics for Interactively Discouraging Artifacts</b>
+      <i> accepted to Crowd Science Workshop: Remoteness, Fairness, and Mechanisms as Challenges of Data Supply by Humans for Automation (Workshop), NeurIPS, 2020</i>.
+      <br/>
+      <a class="link-danger" href="https://neurips.cc/virtual/2020/protected/workshop_16111.html" target="_blank">Workshop Site</a> | <a href="https://slideslive.com/38941268/vaida-an-educative-benchmark-creation-paradigm-using-visual-analytics-for-interactively-discouraging-artifacts">Presentation</a>
+    </div> 
+    <div class="col-2 my-2">
+      <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2020hamlets.png" data-holder-rendered="true">
+    </div>
+    <div class="col-10 my-2">
+      Anjana Arunkumar, Swaroop Mishra, Bhavdeep Singh Sachdeva, Chitta Baral, Chris Bryan. 
+      <b>Real-Time Visual Feedback for Educative Benchmark Creation: A Human-and Metric-in-the-Loop Workflow</b>
+      <i> accepted to HAMLETS (Human And Machine in-the-Loop Evaluation and Learning Strategies Workshop)  NeurIPS, 2020</i>.
+      <br/>
+      <a class="link-danger" href="https://hamlets-workshop.github.io" target="_blank">Workshop Site</a> | <a href="https://aarunku5.github.io/files/arunkumar2020hamlets.pdf">Paper</a>
+    </div> 
+    <div class="col-2 my-2">
+      <img class="border rounded shadow img-fluid" src="/images/papers/mishra2020fcbp.png" data-holder-rendered="true">
+    </div>
+    <div class="col-10 my-2">
+      Swaroop Ranjan Mishra, and Anjana Arunkumar. 
+      <b>Front Contribution instead of Back Propagation</b>
+      <i> accepted to Beyond Backpropagation: Novel Ideas for Training Neural Architectures (Workshop), NeurIPS, 2020</i>.
+      <br/>
+      <a class="link-danger" href="https://beyondbackprop.github.io" target="_blank">Workshop Site</a> | <a href="https://aarunku5.github.io/files/mishra2020fcbp.pdf">Paper</a>
+    </div> 
 
 
   </div>
@@ -203,11 +232,8 @@ author_profile: true
   {% include archive-single.html %}
 {% endfor %}
 
-•	 . .
-•	 . Uncertainty & Robustness in Deep Learning , ICML, 2020 (workshop).
-•	Swaroop Mishra, Anjana Arunkumar, Bhavdeep Sachdeva, Chris Bryan and Chitta Baral. VAIDA: An Educative Benchmark Creation Paradigm using Visual Analytics for Interactively Discouraging Artifacts. Crowd Science Workshop: Remoteness, Fairness, and Mechanisms as Challenges of Data Supply by Humans for Automation, NeurIPS, 2020 (workshop).
-•	Swaroop Ranjan Mishra, and Anjana Arunkumar. Front Contribution instead of Back Propagation. Beyond Backpropagation: Novel Ideas for Training Neural Architectures, NeurIPS, 2020 (workshop).
-•	Anjana Arunkumar, Swaroop Mishra, Bhavdeep Singh Sachdeva, Chitta Baral, Chris Bryan.  Real-Time Visual Feedback for Educative Benchmark Creation: A Human-and Metric-in-the-Loop Workflow. HAMLETS (Human And Machine in-the-Loop Evaluation and Learning Strategies) NeurIPS, 2020 (workshop).
+
+
 •	Swaroop Mishra, Anjana Arunkumar, and Bhavdeep Sachdeva. Is High Quality Data All You Need? The pre-registration experiment: an alternative publication model for machine learning research, NeurIPS, 2020 (workshop).
 •	Anjana Arunkumar and Arunkumar Madapusi.  Investigating the Influence of Top Management Support in Systemic Enterprise System Deployments.  Decision Sciences Institute Annual Meeting, 2020.
 •	Anjana Arunkumar and Arunkumar Madapusi.  Examining Data Visualization’s Impact on Decision Making. Decision Sciences Institute Annual Meeting, 2020.
