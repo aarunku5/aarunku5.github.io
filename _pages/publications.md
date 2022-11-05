@@ -240,7 +240,7 @@ author_profile: true
     </div>
     <div class="col-10 my-2">
       Anjana Arunkumar and Arunkumar Madapusi.
-      <b>Examining Data Visualization’s Impact on Decision Making</b>
+      <b>Examining Data Visualization's Impact on Decision Making</b>
       <i> accepted to Decision Sciences Institute Annual Conference 2020</i>.
     </div>
     <div class="col-2 my-2">
