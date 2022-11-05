@@ -53,7 +53,14 @@ author_profile: true
       <br/>
       <a class="link-danger" href="https://ojs.aaai.org/index.php/AAAI/article/view/17599" target="_blank">DOI</a> | <a href="https://aarunku5.github.io/files/arunkumar2021leaderboard.pdf">Paper</a>
     </div> 
-
+    <div class="col-2 my-2">
+      <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2018dsi-1.png" data-holder-rendered="true">
+    </div>
+    <div class="col-10 my-2">
+      Arunkumar Madapusi and Anjana Arunkumar.
+      <b> Enterprise Systems, Organizational Practices, and Firm Performance: An Innovation Diffusion Perspective</b>
+      <i> accepted to International Journal of Management Information Systems, 2018</i>.
+    </div>  
 
 
 
@@ -291,21 +298,93 @@ author_profile: true
       <b>Active Learning Methodology: Bridging Theory and Practice</b>
       <i> accepted to Southwest Decision Sciences Institute Annual Conference 2019</i>.
     </div>  
-        <div class="col-2 my-2">
+    <div class="col-2 my-2">
       <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2019swdsi-2.png" data-holder-rendered="true">
     </div>
     <div class="col-10 my-2">
-      Anjana Arunkumar, Arunkumar Madapusi., and Monica Jenefer.
+      Anjana Arunkumar, Arunkumar Madapusi, and Monica Jenefer.
       <b>ES Configurations and their Impact on firm Performance</b>
       <i> accepted to Southwest Decision Sciences Institute Annual Conference 2019</i>.
     </div>  
-        <div class="col-2 my-2">
+    <div class="col-2 my-2">
       <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2019swdsi-3.png" data-holder-rendered="true">
     </div>
     <div class="col-10 my-2">
-      Anjana Arunkumar, Arunkumar Madapusi., and Monica Jenefer.
+      Anjana Arunkumar, Arunkumar Madapusi, and Monica Jenefer.
       <b>The Role of Moderators in ERP System Deployment Success</b>
       <i> accepted to Southwest Decision Sciences Institute Annual Conference 2019</i>.
+    </div>  
+    <div class="col-2 my-2">
+      <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2018dsi-1.png" data-holder-rendered="true">
+    </div>
+    <div class="col-10 my-2">
+      Anjana Arunkumar.
+      <b>Competences Influencing Absorptive Capacity in Enterprise Systems</b>
+      <i> accepted to Decision Sciences Institute Annual Conference 2018</i>.
+    </div>  
+    <div class="col-2 my-2">
+      <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2018dsi-2.png" data-holder-rendered="true">
+    </div>
+    <div class="col-10 my-2">
+      Anjana Arunkumar.
+      <b>Enterprise System Configuration and Performance</b>
+      <i> accepted to Decision Sciences Institute Annual Conference 2018</i>.
+    </div>  
+    <div class="col-2 my-2">
+      <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2018dsi-3.png" data-holder-rendered="true">
+    </div>
+    <div class="col-10 my-2">
+      Anjana Arunkumar.
+      <b>The Influence of Alignment in Enterprise System Deployments</b>
+      <i> accepted to Decision Sciences Institute Annual Conference 2018</i>.
+    </div>  
+    <div class="col-2 my-2">
+      <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2018nedsi-1.png" data-holder-rendered="true">
+    </div>
+    <div class="col-10 my-2">
+      Anjana Arunkumar and Arunkumar Madapusi.
+      <b>Absorptive Capacity in Enterprise Systems</b>
+      <i> accepted to Decision Sciences Institute Annual Conference 2018</i>.
+    </div>  
+    <div class="col-2 my-2">
+      <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2018nedsi-2.png" data-holder-rendered="true">
+    </div>
+    <div class="col-10 my-2">
+      Anjana Arunkumar and Arunkumar Madapusi.
+      <b>Configuring SME Enterprise Systems</b>
+      <i> accepted to Decision Sciences Institute Annual Conference 2018</i>.
+    </div>  
+    <div class="col-2 my-2">
+      <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2018nedsi-3.png" data-holder-rendered="true">
+    </div>
+    <div class="col-10 my-2">
+      Anjana Arunkumar and Arunkumar Madapusi.
+      <b>Critical Success Factors in Enterprise Systems</b>
+      <i> accepted to Decision Sciences Institute Annual Conference 2018</i>.
+    </div>  
+    <div class="col-2 my-2">
+      <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2017dsi-1.png" data-holder-rendered="true">
+    </div>
+    <div class="col-10 my-2">
+      Arunkumar Madapusi and Anjana Arunkumar.
+      <b>The Influence of Competency Factors in Enterprise System Deployments</b>
+      <i> accepted to Decision Sciences Institute Annual Conference 2017</i>.
+    </div>  
+    <div class="col-2 my-2">
+      <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2017dsi-2.png" data-holder-rendered="true">
+    </div>
+    <div class="col-10 my-2">
+      Arunkumar Madapusi and Anjana Arunkumar.
+      <b>The Influence of Knowledge Capabilities in Enterprise System Deployments</b>
+      <i> accepted to Decision Sciences Institute Annual Conference 2017</i>.
+    </div>  
+    <div class="col-2 my-2">
+      <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2017dsi-3.png" data-holder-rendered="true">
+    </div>
+    <div class="col-10 my-2">
+      Arunkumar Madapusi and Anjana Arunkumar.
+      <b>The Influence of Knowledge Capital in Enterprise System Deployments</b>
+      <i> accepted to Decision Sciences Institute Annual Conference 2017</i>.
     </div>  
 
   </div>
@@ -320,5 +399,3 @@ author_profile: true
 {% for post in site.publications reversed %}
   {% include archive-single.html %}
 {% endfor %}
-
-
