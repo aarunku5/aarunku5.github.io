@@ -167,6 +167,28 @@ author_profile: true
       <br/>
       <a class="link-danger" href="https://vast-challenge.github.io/2020/" target="_blank">Contest Site</a> | <a href="https://aarunku5.github.io/files/huang2020totemfinder.pdf">Short Paper</a> | <a class="link-danger" href="https://github.com/JakobWong/VAST2020">Code Repository</a> | <b style="color:green;">Honorable Mention : Effective Use of Visual Encodings for Correcting Classification Errors</b>
     </div> 
+    <div class="col-2 my-2">
+      <img class="border rounded shadow img-fluid" src="/images/papers/mishra2020udl-1.png" data-holder-rendered="true">
+    </div>
+    <div class="col-10 my-2">
+      Swaroop Mishra, Anjana Arunkumar, Bhavdeep Sachdeva, Chris Bryan and Chitta Baral. 
+      <b>DQI: A Guide to Benchmark Evaluation</b>
+      <i> accepted to Uncertainty & Robustness in Deep Learning Workshop, ICML, 2020</i>.
+      <br/>
+      <a class="link-danger" href="https://sites.google.com/view/udlworkshop2020/home?authuser=0" target="_blank">Workshop Site</a> | <a href="https://aarunku5.github.io/files/mishra2020udl-1.pdf">arXiv preprint</a>
+    </div> 
+    <div class="col-2 my-2">
+      <img class="border rounded shadow img-fluid" src="/images/papers/mishra2020udl-2.png" data-holder-rendered="true">
+    </div>
+    <div class="col-10 my-2">
+      Swaroop Mishra, Anjana Arunkumar, Chris Bryan and Chitta Baral. 
+      <b>Our Evaluation Metric Needs an Update to Encourage Generalization</b>
+      <i> accepted to Uncertainty & Robustness in Deep Learning Workshop, ICML, 2020</i>.
+      <br/>
+      <a class="link-danger" href="https://sites.google.com/view/udlworkshop2020/home?authuser=0" target="_blank">Workshop Site</a> | <a href="https://aarunku5.github.io/files/mishra2020udl-2.pdf">arXiv preprint</a>
+    </div> 
+
+
 
   </div>
 </div>
@@ -180,3 +202,13 @@ author_profile: true
 {% for post in site.publications reversed %}
   {% include archive-single.html %}
 {% endfor %}
+
+•	 . .
+•	 . Uncertainty & Robustness in Deep Learning , ICML, 2020 (workshop).
+•	Swaroop Mishra, Anjana Arunkumar, Bhavdeep Sachdeva, Chris Bryan and Chitta Baral. VAIDA: An Educative Benchmark Creation Paradigm using Visual Analytics for Interactively Discouraging Artifacts. Crowd Science Workshop: Remoteness, Fairness, and Mechanisms as Challenges of Data Supply by Humans for Automation, NeurIPS, 2020 (workshop).
+•	Swaroop Ranjan Mishra, and Anjana Arunkumar. Front Contribution instead of Back Propagation. Beyond Backpropagation: Novel Ideas for Training Neural Architectures, NeurIPS, 2020 (workshop).
+•	Anjana Arunkumar, Swaroop Mishra, Bhavdeep Singh Sachdeva, Chitta Baral, Chris Bryan.  Real-Time Visual Feedback for Educative Benchmark Creation: A Human-and Metric-in-the-Loop Workflow. HAMLETS (Human And Machine in-the-Loop Evaluation and Learning Strategies) NeurIPS, 2020 (workshop).
+•	Swaroop Mishra, Anjana Arunkumar, and Bhavdeep Sachdeva. Is High Quality Data All You Need? The pre-registration experiment: an alternative publication model for machine learning research, NeurIPS, 2020 (workshop).
+•	Anjana Arunkumar and Arunkumar Madapusi.  Investigating the Influence of Top Management Support in Systemic Enterprise System Deployments.  Decision Sciences Institute Annual Meeting, 2020.
+•	Anjana Arunkumar and Arunkumar Madapusi.  Examining Data Visualization’s Impact on Decision Making. Decision Sciences Institute Annual Meeting, 2020.
+•	Anjana Arunkumar and Arunkumar Madapusi.  Investigating the Influence of Chart Embellishment on Decision Making. Decision Sciences Institute Annual Meeting, 2020.
