@@ -54,7 +54,7 @@ author_profile: true
       <a class="link-danger" href="https://ojs.aaai.org/index.php/AAAI/article/view/17599" target="_blank">DOI</a> | <a href="https://aarunku5.github.io/files/arunkumar2021leaderboard.pdf">Paper</a>
     </div> 
     <div class="col-2 my-2">
-      <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2018dsi-1.png" data-holder-rendered="true">
+      <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2018journal.png" data-holder-rendered="true">
     </div>
     <div class="col-10 my-2">
       Arunkumar Madapusi and Anjana Arunkumar.
