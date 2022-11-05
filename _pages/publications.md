@@ -251,6 +251,62 @@ author_profile: true
       <b>Investigating the Influence of Chart Embellishment on Decision Making</b>
       <i> accepted to Decision Sciences Institute Annual Conference 2020</i>.
     </div>    
+    <div class="col-2 my-2">
+      <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2019dsi-1.png" data-holder-rendered="true">
+    </div>
+    <div class="col-10 my-2">
+      Anjana Arunkumar and Arunkumar Madapusi.
+      <b>Integration Mechanisms, Absorptive Capacity, & Enterprise Systems</b>
+      <i> accepted to Decision Sciences Institute Annual Conference 2019</i>.
+    </div>    
+    <div class="col-2 my-2">
+      <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2019dsi-2.png" data-holder-rendered="true">
+    </div>
+    <div class="col-10 my-2">
+      Anjana Arunkumar and Arunkumar Madapusi.
+      <b>Relational Capital & Enterprise Systems</b>
+      <i> accepted to Decision Sciences Institute Annual Conference 2019</i>.
+    </div>  
+    <div class="col-2 my-2">
+      <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2019dsi-3.png" data-holder-rendered="true">
+    </div>
+    <div class="col-10 my-2">
+      Anjana Arunkumar and Arunkumar Madapusi.
+      <b>The Role of Consultants in Enterprise Systems</b>
+      <i> accepted to Decision Sciences Institute Annual Conference 2019</i>.
+    </div>  
+    <div class="col-2 my-2">
+      <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2019dsi-4.png" data-holder-rendered="true">
+    </div>
+    <div class="col-10 my-2">
+      Anjana Arunkumar and Sandhya, M.K.
+      <b>Abstractive Summarization Through Sentiment Analysis Of User Product Reviews - An RNN Approach</b>
+      <i> accepted to Decision Sciences Institute Annual Conference 2019</i>.
+    </div>      
+    <div class="col-2 my-2">
+      <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2019swdsi-1.png" data-holder-rendered="true">
+    </div>
+    <div class="col-10 my-2">
+      Anjana Arunkumar, Sandhya, M.K., and Arunkumar Madapusi.
+      <b>Active Learning Methodology: Bridging Theory and Practice</b>
+      <i> accepted to Southwest Decision Sciences Institute Annual Conference 2019</i>.
+    </div>  
+        <div class="col-2 my-2">
+      <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2019swdsi-2.png" data-holder-rendered="true">
+    </div>
+    <div class="col-10 my-2">
+      Anjana Arunkumar, Arunkumar Madapusi., and Monica Jenefer.
+      <b>ES Configurations and their Impact on firm Performance</b>
+      <i> accepted to Southwest Decision Sciences Institute Annual Conference 2019</i>.
+    </div>  
+        <div class="col-2 my-2">
+      <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2019swdsi-3.png" data-holder-rendered="true">
+    </div>
+    <div class="col-10 my-2">
+      Anjana Arunkumar, Arunkumar Madapusi., and Monica Jenefer.
+      <b>The Role of Moderators in ERP System Deployment Success</b>
+      <i> accepted to Southwest Decision Sciences Institute Annual Conference 2019</i>.
+    </div>  
 
   </div>
 </div>
