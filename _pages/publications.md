@@ -345,6 +345,8 @@ author_profile: true
       Anjana Arunkumar and Arunkumar Madapusi.
       <b>Absorptive Capacity in Enterprise Systems</b>
       <i> accepted to Northeast Decision Sciences Institute Annual Conference 2018</i>.
+    <br/>
+    <b style="color:green;">Finalist : Undergraduate Poster Competition</b>
     </div>  
     <div class="col-2 my-2">
       <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2018nedsi-2.png" data-holder-rendered="true">
