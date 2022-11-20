@@ -57,7 +57,7 @@ author_profile: true
       <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2018journal.png" data-holder-rendered="true">
     </div>
     <div class="col-10 my-2">
-      Arunkumar Madapusi and Anjana Arunkumar.
+      Arun Madapusi and Anjana Arunkumar.
       <b> Enterprise Systems, Organizational Practices, and Firm Performance: An Innovation Diffusion Perspective</b>
       <i> accepted to International Journal of Management Information Systems, 2018</i>.
     </div>  
@@ -77,7 +77,7 @@ author_profile: true
       <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2022dsi-1.png" data-holder-rendered="true">
     </div>
     <div class="col-10 my-2">
-      Anjana Arunkumar, Daniel Ortiz, and Arunkumar Madapusi.
+      Anjana Arunkumar, Daniel Ortiz, and Arun Madapusi.
       <b>Examining the Effect of Visual Redundancy on the Understanding of Visualizations in Procurement and Sourcing</b>
       <i> accepted to Decision Sciences Institute Annual Conference 2022</i>.
     </div>
@@ -85,7 +85,7 @@ author_profile: true
       <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2022dsi-2.png" data-holder-rendered="true">
     </div>
     <div class="col-10 my-2">
-      Anjana Arunkumar, Daniel Ortiz, and Arunkumar Madapusi.
+      Anjana Arunkumar, Daniel Ortiz, and Arun Madapusi.
       <b>Examining the Effect of Reconfiguration Interactions on the Understanding of Anomalies in Supply Chain Management</b>
       <i> accepted to Decision Sciences Institute Annual Conference 2022</i>.
       <br/>
@@ -94,7 +94,7 @@ author_profile: true
       <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2022mwdsi-1.png" data-holder-rendered="true">
     </div>
     <div class="col-10 my-2">
-      Anjana Arunkumar, Daniel Ortiz, and Arunkumar Madapusi.
+      Anjana Arunkumar, Daniel Ortiz, and Arun Madapusi.
       <b>Evaluation of Visual Uncertainty Representations in Schedule Risk Analysis</b>
       <i> accepted to Midwest Decision Sciences Institute Annual Conference 2022</i>.
       <br/>
@@ -103,7 +103,7 @@ author_profile: true
       <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2022mwdsi-2.png" data-holder-rendered="true">
     </div>
     <div class="col-10 my-2">
-      Anjana Arunkumar, Daniel Ortiz, and Arunkumar Madapusi.
+      Anjana Arunkumar, Daniel Ortiz, and Arun Madapusi.
       <b>Modelling the Complexity of Risk Centered Supply Chain Network Visualization</b>
       <i> accepted to Midwest Decision Sciences Institute Annual Conference 2022</i>.
       <br/>
@@ -122,7 +122,7 @@ author_profile: true
       <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2021dsi-1.png" data-holder-rendered="true">
     </div>
     <div class="col-10 my-2">
-      Anjana Arunkumar, Daniel Ortiz, and Arunkumar Madapusi.
+      Anjana Arunkumar, Daniel Ortiz, and Arun Madapusi.
       <b>Impact of Uncertainty Representation on Decision Making for Business Network Visualization</b>
       <i> accepted to Decision Sciences Institute Annual Conference 2021</i>.
       <br/>
@@ -131,7 +131,7 @@ author_profile: true
       <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2021dsi-2.png" data-holder-rendered="true">
     </div>
     <div class="col-10 my-2">
-      Anjana Arunkumar, Daniel Ortiz, and Arunkumar Madapusi.
+      Anjana Arunkumar, Daniel Ortiz, and Arun Madapusi.
       <b>Bayesian Modelling of Uncertainty in Schedule Risk Analysis using Gantt Charts</b>
       <i> accepted to Decision Sciences Institute Annual Conference 2021</i>.
       <br/>
@@ -140,7 +140,7 @@ author_profile: true
       <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2021dsi-3.png" data-holder-rendered="true">
     </div>
     <div class="col-10 my-2">
-      Anjana Arunkumar, Daniel Ortiz, and Arunkumar Madapusi.
+      Anjana Arunkumar, Daniel Ortiz, and Arun Madapusi.
       <b>Modelling the Complexity of Supply Chain Network Visualization</b>
       <i> accepted to Decision Sciences Institute Annual Conference 2021</i>.
       <br/>
@@ -149,7 +149,7 @@ author_profile: true
       <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2021nedsi-1.png" data-holder-rendered="true">
     </div>
     <div class="col-10 my-2">
-      Anjana Arunkumar and Arunkumar Madapusi.
+      Anjana Arunkumar and Arun Madapusi.
       <b>Strategy-Enterprise System Alignment and Firm Performance</b>
       <i> accepted to Northeast Decision Sciences Institute Annual Conference 2021</i>.
       <br/>
@@ -238,7 +238,7 @@ author_profile: true
       <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2020dsi-1.png" data-holder-rendered="true">
     </div>
     <div class="col-10 my-2">
-      Anjana Arunkumar and Arunkumar Madapusi.
+      Anjana Arunkumar and Arun Madapusi.
       <b>Investigating the Influence of Top Management Support in Systemic Enterprise System Deployments</b>
       <i> accepted to Decision Sciences Institute Annual Conference 2020</i>.
     </div>
@@ -246,7 +246,7 @@ author_profile: true
       <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2020dsi-2.png" data-holder-rendered="true">
     </div>
     <div class="col-10 my-2">
-      Anjana Arunkumar and Arunkumar Madapusi.
+      Anjana Arunkumar and Arun Madapusi.
       <b>Examining Data Visualization's Impact on Decision Making</b>
       <i> accepted to Decision Sciences Institute Annual Conference 2020</i>.
     </div>
@@ -254,7 +254,7 @@ author_profile: true
       <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2020dsi-3.png" data-holder-rendered="true">
     </div>
     <div class="col-10 my-2">
-      Anjana Arunkumar and Arunkumar Madapusi.
+      Anjana Arunkumar and Arun Madapusi.
       <b>Investigating the Influence of Chart Embellishment on Decision Making</b>
       <i> accepted to Decision Sciences Institute Annual Conference 2020</i>.
     </div>    
@@ -262,7 +262,7 @@ author_profile: true
       <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2019dsi-1.png" data-holder-rendered="true">
     </div>
     <div class="col-10 my-2">
-      Anjana Arunkumar and Arunkumar Madapusi.
+      Anjana Arunkumar and Arun Madapusi.
       <b>Integration Mechanisms, Absorptive Capacity, & Enterprise Systems</b>
       <i> accepted to Decision Sciences Institute Annual Conference 2019</i>.
     </div>    
@@ -270,7 +270,7 @@ author_profile: true
       <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2019dsi-2.png" data-holder-rendered="true">
     </div>
     <div class="col-10 my-2">
-      Anjana Arunkumar and Arunkumar Madapusi.
+      Anjana Arunkumar and Arun Madapusi.
       <b>Relational Capital & Enterprise Systems</b>
       <i> accepted to Decision Sciences Institute Annual Conference 2019</i>.
     </div>  
@@ -278,7 +278,7 @@ author_profile: true
       <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2019dsi-3.png" data-holder-rendered="true">
     </div>
     <div class="col-10 my-2">
-      Anjana Arunkumar and Arunkumar Madapusi.
+      Anjana Arunkumar and Arun Madapusi.
       <b>The Role of Consultants in Enterprise Systems</b>
       <i> accepted to Decision Sciences Institute Annual Conference 2019</i>.
     </div>  
@@ -294,7 +294,7 @@ author_profile: true
       <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2019swdsi-1.png" data-holder-rendered="true">
     </div>
     <div class="col-10 my-2">
-      Anjana Arunkumar, Sandhya, M.K., and Arunkumar Madapusi.
+      Anjana Arunkumar, Sandhya, M.K., and Arun Madapusi.
       <b>Active Learning Methodology: Bridging Theory and Practice</b>
       <i> accepted to Southwest Decision Sciences Institute Annual Conference 2019</i>.
     </div>  
@@ -302,7 +302,7 @@ author_profile: true
       <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2019swdsi-2.png" data-holder-rendered="true">
     </div>
     <div class="col-10 my-2">
-      Anjana Arunkumar, Arunkumar Madapusi, and Monica Jenefer.
+      Anjana Arunkumar, Arun Madapusi, and Monica Jenefer.
       <b>ES Configurations and their Impact on firm Performance</b>
       <i> accepted to Southwest Decision Sciences Institute Annual Conference 2019</i>.
     </div>  
@@ -310,7 +310,7 @@ author_profile: true
       <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2019swdsi-3.png" data-holder-rendered="true">
     </div>
     <div class="col-10 my-2">
-      Anjana Arunkumar, Arunkumar Madapusi, and Monica Jenefer.
+      Anjana Arunkumar, Arun Madapusi, and Monica Jenefer.
       <b>The Role of Moderators in ERP System Deployment Success</b>
       <i> accepted to Southwest Decision Sciences Institute Annual Conference 2019</i>.
     </div>  
@@ -342,7 +342,7 @@ author_profile: true
       <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2018nedsi-1.png" data-holder-rendered="true">
     </div>
     <div class="col-10 my-2">
-      Anjana Arunkumar and Arunkumar Madapusi.
+      Anjana Arunkumar and Arun Madapusi.
       <b>Absorptive Capacity in Enterprise Systems</b>
       <i> accepted to Northeast Decision Sciences Institute Annual Conference 2018</i>.
     <br/>
@@ -352,7 +352,7 @@ author_profile: true
       <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2018nedsi-2.png" data-holder-rendered="true">
     </div>
     <div class="col-10 my-2">
-      Anjana Arunkumar and Arunkumar Madapusi.
+      Anjana Arunkumar and Arun Madapusi.
       <b>Configuring SME Enterprise Systems</b>
       <i> accepted to Northeast Decision Sciences Institute Annual Conference 2018</i>.
     </div>  
@@ -360,7 +360,7 @@ author_profile: true
       <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2018nedsi-3.png" data-holder-rendered="true">
     </div>
     <div class="col-10 my-2">
-      Anjana Arunkumar and Arunkumar Madapusi.
+      Anjana Arunkumar and Arun Madapusi.
       <b>Critical Success Factors in Enterprise Systems</b>
       <i> accepted to Northeast Decision Sciences Institute Annual Conference 2018</i>.
     </div>  
@@ -368,7 +368,7 @@ author_profile: true
       <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2017dsi-1.png" data-holder-rendered="true">
     </div>
     <div class="col-10 my-2">
-      Arunkumar Madapusi and Anjana Arunkumar.
+      Arun Madapusi and Anjana Arunkumar.
       <b>The Influence of Competency Factors in Enterprise System Deployments</b>
       <i> accepted to Decision Sciences Institute Annual Conference 2017</i>.
     </div>  
@@ -376,7 +376,7 @@ author_profile: true
       <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2017dsi-2.png" data-holder-rendered="true">
     </div>
     <div class="col-10 my-2">
-      Arunkumar Madapusi and Anjana Arunkumar.
+      Arun Madapusi and Anjana Arunkumar.
       <b>The Influence of Knowledge Capabilities in Enterprise System Deployments</b>
       <i> accepted to Decision Sciences Institute Annual Conference 2017</i>.
     </div>  
@@ -384,7 +384,7 @@ author_profile: true
       <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2017dsi-3.png" data-holder-rendered="true">
     </div>
     <div class="col-10 my-2">
-      Arunkumar Madapusi and Anjana Arunkumar.
+      Arun Madapusi and Anjana Arunkumar.
       <b>The Influence of Knowledge Capital in Enterprise System Deployments</b>
       <i> accepted to Decision Sciences Institute Annual Conference 2017</i>.
     </div>  
