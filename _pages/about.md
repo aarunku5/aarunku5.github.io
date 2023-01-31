@@ -22,7 +22,15 @@ News
 <div style="max-height: 200px; overflow-y:scroll;">
 <table class="table table-striped table-hover table-borderless" style="table-layout:fixed; width: 100%;">
 <tbody>
-      <tr>
+    <tr>
+      <td><b>Jan 2023</b></td>
+      <td>Our submission <i>Real-Time Visual Feedback to Guide Benchmark Creation: A Human-and-Metric-in-the-Loop Workflow </i>has been accepted as a full paper in EACL 2023 </td>
+    </tr>    
+    <tr>
+      <td><b>Dec 2022</b></td>
+      <td>Our submissions <i>Examining The Effects of Visual Redundancy on Understanding Uncertainty Representations in Schedule Risk Analysis, </i> and <i>Examining the Effect of Reconfiguration Interactions on Understanding Uncertainty in Supply Chain Disruption</i> have been accepted to Southwest Decision Sciences Institute Annual Conference 2023 </td>
+    </tr>    
+    <tr>
       <td><b>Nov 2022</b></td>
       <td>Our submissions <i>Examining the Effect of Visual Redundancy on the Understanding of Visualizations in Procurement and Sourcing, </i> and <i>Examining the Effect of Reconfiguration Interactions on the Understanding of Anomalies in Supply Chain Management</i> have been accepted to Decision Sciences Institute Annual Conference 2022 </td>
     </tr>    
@@ -107,6 +115,16 @@ Selected Publications
 
 <div class="container">
   <div class="row">
+    <div class="col-2 my-2">
+      <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2023eacl.png" data-holder-rendered="true">
+    </div>
+    <div class="col-10 my-2">
+      Anjana Arunkumar, Swaroop Mishra, Bhavdeep Sachdeva, Chitta Baral, and Chris Bryan.
+      <b>Real-Time Visual Feedback to Guide Benchmark Creation: A Human-and-Metric-in-the-Loop Workflow</b>
+      <i> in press, accepted to EACL 2023</i>.
+      <br/>
+      <!-- <a class="link-danger" href="https://ieeexplore.ieee.org/abstract/document/9903279" target="_blank">DOI</a> | <a href="https://aarunku5.github.io/files/arunkumar2022pmutracker.pdf">Paper</a> -->
+    </div>
     <div class="col-2 my-2">
       <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2022pmutracker.png" data-holder-rendered="true">
     </div>
