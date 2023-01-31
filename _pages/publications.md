@@ -84,6 +84,22 @@ author_profile: true
 <div class="container">
   <div class="row">
     <div class="col-2 my-2">
+      <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2023swdsi-1.png" data-holder-rendered="true">
+    </div>
+    <div class="col-10 my-2">
+      Anjana Arunkumar, Daniel Ortiz, and Arun Madapusi.
+      <b>Examining The Effects of Visual Redundancy on Understanding Uncertainty Representations in Schedule Risk Analysis</b>
+      <i> accepted to Southwest Decision Sciences Institute Annual Conference 2023</i>.
+    </div>
+    <div class="col-2 my-2">
+      <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2023swdsi-2.png" data-holder-rendered="true">
+    </div>
+    <div class="col-10 my-2">
+      Anjana Arunkumar, Daniel Ortiz, and Arun Madapusi.
+      <b>Examining the Effect of Reconfiguration Interactions on Understanding Uncertainty in Supply Chain Disruption</b>
+      <i> accepted to Southwest Decision Sciences Institute Annual Conference 2023</i>.
+    </div>
+    <div class="col-2 my-2">
       <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2022dsi-1.png" data-holder-rendered="true">
     </div>
     <div class="col-10 my-2">
