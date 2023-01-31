@@ -14,7 +14,7 @@ author_profile: true
 <div class="container">
   <div class="row">
     <div class="col-2 my-2">
-      <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2022pmutracker.png" data-holder-rendered="true">
+      <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2023eacl.png" data-holder-rendered="true">
     </div>
     <div class="col-10 my-2">
       Anjana Arunkumar, Swaroop Mishra, Bhavdeep Sachdeva, Chitta Baral, and Chris Bryan.
