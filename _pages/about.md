@@ -161,7 +161,7 @@ Selected Publications
     <div class="col-10 my-2">
       Swaroop Mishra and Anjana Arunkumar.
       <b>How Robust are Model Rankings : A Leaderboard Customization Approach for Equitable Evaluation</b>
-      <i> accepted to 2021 IEEE Visualization Conference (VIS), pp 51-55, 2021</i>.
+      <i> accepted to 2021 AAAI Conference on Artificial Intelligence, 35(15), 13561-13569</i>.
       <br/>
       <a class="link-danger" href="https://ojs.aaai.org/index.php/AAAI/article/view/17599" target="_blank">DOI</a> | <a href="https://aarunku5.github.io/files/arunkumar2021leaderboard.pdf">Paper</a>
     </div> 
