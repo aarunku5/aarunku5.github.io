@@ -14,6 +14,26 @@ author_profile: true
 <div class="container">
   <div class="row">
     <div class="col-2 my-2">
+      <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2023image.png" data-holder-rendered="true">
+    </div>
+    <div class="col-10 my-2">
+      Anjana Arunkumar, Lace Padilla, Gi-Yeul Bae, and Chris Bryan.
+      <b>Image or Information? Examining the Nature and Impact of Visualization Perceptual Classification</b>
+      <i> accepted to IEEE VIS 2023</i>.
+      <br/>
+      <a class="link-danger" href="https://arxiv.org/abs/2307.10571" target="_blank">Paper</a> | <a href="https://github.com/aarunku5/Image-or-Information-Vis-2023">Supplementary Materials</a>
+    </div>
+    <div class="col-2 my-2">
+      <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2023lingo.png" data-holder-rendered="true">
+    </div>
+    <div class="col-10 my-2">
+      Anjana Arunkumar, Shubham Sharma, Rakhi Agrawal, Sriram Chandrasekaran, and Chris Bryan.
+      <b>LINGO: Visually Debiasing Natural Language Instructions to Support Task Diversity</b>
+      <i>  Computer Graphics Forum, 42.3, 2023</i>.
+      <br/>
+      <a class="link-danger" href="https://diglib.eg.org/handle/10.1111/cgf14840" target="_blank">DOI</a> | <a href="https://aarunku5.github.io/files/arunkumar2023lingo.pdf">Paper</a> | <a href="https://www.youtube.com/watch?v=KBKALQlUsKg&list=PLA4becqJ7pe0fHeICflAdTAf-pAWJ77h9&index=2">Video</a>
+    </div>
+    <div class="col-2 my-2">
       <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2023eacl.png" data-holder-rendered="true">
     </div>
     <div class="col-10 my-2">
@@ -21,7 +41,7 @@ author_profile: true
       <b>Real-Time Visual Feedback to Guide Benchmark Creation: A Human-and-Metric-in-the-Loop Workflow</b>
       <i> in press, accepted to EACL 2023</i>.
       <br/>
-      <!-- <a class="link-danger" href="https://ieeexplore.ieee.org/abstract/document/9903279" target="_blank">DOI</a> | <a href="https://aarunku5.github.io/files/arunkumar2022pmutracker.pdf">Paper</a> -->
+      <a class="link-danger" href="https://aclanthology.org/2023.eacl-main.212/" target="_blank">DOI</a> | <a href="https://aarunku5.github.io/files/arunkumar2023realtime.pdf">Paper</a>
     </div>
     <div class="col-2 my-2">
       <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2022pmutracker.png" data-holder-rendered="true">
@@ -66,11 +86,6 @@ author_profile: true
     <div class="col-2 my-2">
       <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2018journal.png" data-holder-rendered="true">
     </div>
-    <div class="col-10 my-2">
-      Arun Madapusi and Anjana Arunkumar.
-      <b> Enterprise Systems, Organizational Practices, and Firm Performance: An Innovation Diffusion Perspective</b>
-      <i> accepted to International Journal of Management Information Systems, 2018</i>.
-    </div>  
 
 
 
@@ -83,6 +98,22 @@ author_profile: true
 
 <div class="container">
   <div class="row">
+    <div class="col-2 my-2">
+      <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2023dsi-1.png" data-holder-rendered="true">
+    </div>
+    <div class="col-10 my-2">
+      Anjana Arunkumar, Daniel Ortiz, and Arun Madapusi.
+      <b>Examining the Effect of Visualization Proxemics on Decision Making using Touchscreen Dashboards</b>
+      <i> accepted to Decision Sciences Institute Annual Conference 2023</i>.
+    </div>
+    <div class="col-2 my-2">
+      <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2023dsi-2.png" data-holder-rendered="true">
+    </div>
+    <div class="col-10 my-2">
+      Anjana Arunkumar, Daniel Ortiz, and Arun Madapusi.
+      <b>Automated Construction of Business Intelligence Dashboards Using Artificial Intelligence Tools</b>
+      <i> accepted to Decision Sciences Institute Annual Conference 2023</i>.
+    </div>
     <div class="col-2 my-2">
       <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2023swdsi-1.png" data-holder-rendered="true">
     </div>
