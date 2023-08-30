@@ -10,7 +10,7 @@ redirect_from:
 
 I am a 5th year PhD student in the School of Computing and Augmented Intelligence, Arizona State University. I'm a member of the Sonoran Visualization Laboratory (SVL @ ASU), supervised by [Chris Bryan](https://chrisbryan.github.io/).
 
-My research interests lie at the intersection of <i>__visual cognition__</i>, <i>__natural language__</i>, and <i>__data visualization__</i>. Specifically, I investigate how <i>__visualization aesthetics and affordances__</i> influence <i>__decision-making__</i>, and build visual analytics pipelines. I also have a background in exploring bias in natural language models, learning from instructions/prompting, and investigating the influence of visualization techniques in supply chain and project management. 
+My research interests lie at the intersection of <i>__visual cognition__</i>, <i>__natural language__</i>, and <i>__data visualization__</i>. Specifically, I investigate how <i>__visualization aesthetics and affordances__</i> influence <i>__decision-making__</i>, and build visual analytics pipelines. I also have a background in power systems visualization, exploring bias in natural language models, learning from instructions/prompting, and investigating the influence of visualization techniques in supply chain and project management. 
 
 Other related areas I'm excited about include developing visualization recommendation systems based on natural language queries, investigating annotation effects in visualizations, and visualizing uncertainty.
 
@@ -22,6 +22,22 @@ News
 <div style="max-height: 200px; overflow-y:scroll;">
 <table class="table table-striped table-hover table-borderless" style="table-layout:fixed; width: 100%;">
 <tbody>
+    <!-- <tr>
+      <td><b>August 2023</b></td>
+      <td>Our submission <i>Measuring and Comparing Collaborative Visualization Behaviors in Desktop and Augmented Reality Environments </i>has been accepted as a full paper in VRST 2023 </td>
+    </tr>     -->
+    <tr>
+      <td><b>July 2023</b></td>
+      <td>Our submission <i>Image or Information?  Examining the Nature and Impact of Visualization Perceptual Classification </i>has been accepted as a full paper in IEEE VIS 2023 </td>
+    </tr>    
+    <tr>
+      <td><b>July 2023</b></td>
+      <td>Our submissions <i>Examining the Effect of Visualization Proxemics on Decision Making using Touchscreen Dashboards </i> and <i>Automated Construction of Business Intelligence Dashboards Using Artificial Intelligence Tools </i> have been accepted to Decision Sciences Institute Annual Conference 2023 </td>
+    </tr>    
+    <tr>
+      <td><b>March 2023</b></td>
+      <td>Our submission <i>LINGO : Visually Debiasing Natural Language Instructions to Support Task Diversity </i>has been accepted as a full paper in Eurovis 2023 </td>
+    </tr>    
     <tr>
       <td><b>Jan 2023</b></td>
       <td>Our submission <i>Real-Time Visual Feedback to Guide Benchmark Creation: A Human-and-Metric-in-the-Loop Workflow </i>has been accepted as a full paper in EACL 2023 </td>
@@ -116,6 +132,26 @@ Selected Publications
 <div class="container">
   <div class="row">
     <div class="col-2 my-2">
+      <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2023image.png" data-holder-rendered="true">
+    </div>
+    <div class="col-10 my-2">
+      Anjana Arunkumar, Lace Padilla, Gi-Yeul Bae, and Chris Bryan.
+      <b>Image or Information? Examining the Nature and Impact of Visualization Perceptual Classification</b>
+      <i> accepted to IEEE VIS 2023</i>.
+      <br/>
+      <a class="link-danger" href="https://arxiv.org/abs/2307.10571" target="_blank">Paper</a> | <a href="https://github.com/aarunku5/Image-or-Information-Vis-2023">Supplementary Materials</a>
+    </div>
+    <div class="col-2 my-2">
+      <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2023lingo.png" data-holder-rendered="true">
+    </div>
+    <div class="col-10 my-2">
+      Anjana Arunkumar, Shubham Sharma, Rakhi Agrawal, Sriram Chandrasekaran, and Chris Bryan.
+      <b>LINGO: Visually Debiasing Natural Language Instructions to Support Task Diversity</b>
+      <i>  Computer Graphics Forum, 42.3, 2023</i>.
+      <br/>
+      <a class="link-danger" href="https://diglib.eg.org/handle/10.1111/cgf14840" target="_blank">DOI</a> | <a href="https://aarunku5.github.io/files/arunkumar2023lingo.pdf">Paper</a> | <a href="https://www.youtube.com/watch?v=KBKALQlUsKg&list=PLA4becqJ7pe0fHeICflAdTAf-pAWJ77h9&index=2">Video</a>
+    </div>
+    <div class="col-2 my-2">
       <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2023eacl.png" data-holder-rendered="true">
     </div>
     <div class="col-10 my-2">
@@ -123,7 +159,7 @@ Selected Publications
       <b>Real-Time Visual Feedback to Guide Benchmark Creation: A Human-and-Metric-in-the-Loop Workflow</b>
       <i> in press, accepted to EACL 2023</i>.
       <br/>
-      <!-- <a class="link-danger" href="https://ieeexplore.ieee.org/abstract/document/9903279" target="_blank">DOI</a> | <a href="https://aarunku5.github.io/files/arunkumar2022pmutracker.pdf">Paper</a> -->
+      <a class="link-danger" href="https://aclanthology.org/2023.eacl-main.212/" target="_blank">DOI</a> | <a href="https://aarunku5.github.io/files/arunkumar2023realtime.pdf">Paper</a>
     </div>
     <div class="col-2 my-2">
       <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2022pmutracker.png" data-holder-rendered="true">
@@ -164,7 +200,6 @@ Selected Publications
       <i> accepted to 2021 AAAI Conference on Artificial Intelligence, 35(15), 13561-13569</i>.
       <br/>
       <a class="link-danger" href="https://ojs.aaai.org/index.php/AAAI/article/view/17599" target="_blank">DOI</a> | <a href="https://aarunku5.github.io/files/arunkumar2021leaderboard.pdf">Paper</a>
-    </div> 
-    
+    </div>     
   </div>
 </div>
