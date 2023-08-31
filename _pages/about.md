@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a 5th year PhD student in the School of Computing and Augmented Intelligence, Arizona State University. I'm a member of the Sonoran Visualization Laboratory (SVL @ ASU), supervised by [Chris Bryan](https://chrisbryan.github.io/).
+I am a 5th year PhD student in the School of Computing and Augmented Intelligence, Arizona State University. I'm a member of the Sonoran Visualization Laboratory (SVL @ ASU), supervised by [Chris Bryan](https://chrisbryan.github.io/). I was an intern at the National Renewable Energy Laboratory (NREL) in Summer 2023.
 
 My research interests lie at the intersection of <i>__visual cognition__</i>, <i>__natural language__</i>, and <i>__data visualization__</i>. Specifically, I investigate how <i>__visualization aesthetics and affordances__</i> influence <i>__decision-making__</i>, and build visual analytics pipelines. I also have a background in power systems visualization, exploring bias in natural language models, learning from instructions/prompting, and investigating the influence of visualization techniques in supply chain and project management. 
 
