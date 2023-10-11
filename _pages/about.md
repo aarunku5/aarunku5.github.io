@@ -10,7 +10,7 @@ redirect_from:
 
 I am a 5th year PhD student in the School of Computing and Augmented Intelligence, Arizona State University. I'm a member of the Sonoran Visualization Laboratory (SVL @ ASU), supervised by [Chris Bryan](https://chrisbryan.github.io/). I was an intern at the National Renewable Energy Laboratory (NREL) in Summer 2023.
 
-My research interests lie at the intersection of <i>__visual cognition__</i>, <i>__natural language__</i>, and <i>__data visualization__</i>. Specifically, I investigate how <i>__visualization aesthetics and affordances__</i> influence <i>__decision-making__</i>, and build visual analytics pipelines. I also have a background in power systems visualization, exploring bias in natural language models, learning from instructions/prompting, and investigating the influence of visualization techniques in supply chain and project management. 
+My research interests lie at the intersection of <i>__visual cognition__</i>, <i>__natural language__</i>, <i>__technological literacy__</i>, <i>__virtual reality__</i>, and <i>__data visualization__</i>. Specifically, I investigate how <i>__visualization aesthetics and affordances__</i> influence <i>__decision-making__</i>, and build visual analytics pipelines. I also have a background in power systems visualization, exploring bias in natural language models, learning from instructions/prompting, and investigating the influence of visualization techniques in supply chain and project management. 
 
 Other related areas I'm excited about include developing visualization recommendation systems based on natural language queries, investigating annotation effects in visualizations, and visualizing uncertainty.
 
@@ -22,10 +22,10 @@ News
 <div style="max-height: 200px; overflow-y:scroll;">
 <table class="table table-striped table-hover table-borderless" style="table-layout:fixed; width: 100%;">
 <tbody>
-    <!-- <tr>
+    <tr>
       <td><b>August 2023</b></td>
-      <td>Our submission <i>Measuring and Comparing Collaborative Visualization Behaviors in Desktop and Augmented Reality Environments </i>has been accepted as a full paper in VRST 2023 </td>
-    </tr>     -->
+      <td>Our submission <i>Comparing Collaborative Visualization Behaviors in Desktop and Augmented Reality Environments </i>has been accepted as a full paper in VRST 2023 </td>
+    </tr>    
     <tr>
       <td><b>July 2023</b></td>
       <td>Our submission <i>Image or Information?  Examining the Nature and Impact of Visualization Perceptual Classification </i>has been accepted as a full paper in IEEE VIS 2023 </td>

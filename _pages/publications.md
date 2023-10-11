@@ -14,6 +14,16 @@ author_profile: true
 <div class="container">
   <div class="row">
     <div class="col-2 my-2">
+      <img class="border rounded shadow img-fluid" src="/images/papers/kintscher2023comparing.png" data-holder-rendered="true">
+    </div>
+    <div class="col-10 my-2">
+     Michael Kintscher, Jinbin Huang, Anjana Arunkumar, Ashish Amresh, and Chris Bryan.
+      <b>Comparing Collaborative Visualization Behaviors in Desktop and Augmented Reality Environments</b>
+      <i> accepted to VRST 2023</i>.
+      <br/>
+      <a class="link-danger" href="https://arxiv.org/abs/2307.10571" target="_blank">Paper</a> | <a href="https://github.com/aarunku5/Image-or-Information-Vis-2023">Supplementary Materials</a>
+    </div>
+    <div class="col-2 my-2">
       <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2023image.png" data-holder-rendered="true">
     </div>
     <div class="col-10 my-2">
