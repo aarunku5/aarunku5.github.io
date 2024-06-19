@@ -8,13 +8,14 @@ redirect_from:
   - /about.html
 ---
 
-I am a 5th year PhD student in the School of Computing and Augmented Intelligence, Arizona State University. I'm a member of the Sonoran Visualization Laboratory (SVL @ ASU), supervised by [Chris Bryan](https://chrisbryan.github.io/). I was an intern at the National Renewable Energy Laboratory (NREL) in Summer 2023.
+I am a Postdoctoral Researcher in the Khoury Vis Lab at Northeastern University, working with [Lace Padilla](http://www.lacepadilla.com). I graduated from Arizona State University, supervised by [Chris Bryan](https://chrisbryan.github.io/). I have also interned at the National Renewable Energy Laboratory (NREL).
 
-My research interests lie at the intersection of <i>__visual cognition__</i>, <i>__natural language__</i>, <i>__technological literacy__</i>, <i>__virtual reality__</i>, and <i>__data visualization__</i>. Specifically, I investigate how <i>__visualization aesthetics and affordances__</i> influence <i>__decision-making__</i>, and build visual analytics pipelines. I also have a background in power systems visualization, exploring bias in natural language models, learning from instructions/prompting, and investigating the influence of visualization techniques in supply chain and project management. 
 
-Other related areas I'm excited about include developing visualization recommendation systems based on natural language queries, investigating annotation effects in visualizations, and visualizing uncertainty.
+My research lies at the intersection of <i>__visual cognition__</i>, <i>__natural language__</i>, and <i>__data visualization__</i>.  I focus on creating inclusive data visualizations that democratize both creation and consumption for underrepresented populations. Specifically, I examine the influence of <i>__cultural and linguistic diversity__</i>, <i>__technological and graph literacy__</i>, and <i>__cognitive ability__</i> on data visualization. I strive to ensure that data visualizations are accessible and comprehensible to a wide audience, regardless of background or ability. 
 
-I'm always open to discuss new ideas and collaborate, do email to chat!
+My other research interests include decision science, natural language processing, and pedagogy.
+
+I am always open to discussing new ideas and potential collaborations. Please feel free to email me to chat!
 
 News
 ======
