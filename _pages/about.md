@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Postdoctoral Researcher in the Khoury Vis Lab at Northeastern University, working with [Lace Padilla](http://www.lacepadilla.com). I graduated from Arizona State University, supervised by [Chris Bryan](https://chrisbryan.github.io/). I have also interned at the National Renewable Energy Laboratory (NREL).
+I am a Postdoctoral Researcher in the [Khoury Vis Lab](https://vis.khoury.northeastern.edu) at Northeastern University, working with [Lace Padilla](http://www.lacepadilla.com). I graduated from Arizona State University, supervised by [Chris Bryan](https://chrisbryan.github.io/). I have also interned at the National Renewable Energy Laboratory (NREL).
 
 
 My research lies at the intersection of <i>__visual cognition__</i>, <i>__natural language__</i>, and <i>__data visualization__</i>.  I focus on creating inclusive data visualizations that democratize both creation and consumption for underrepresented populations. Specifically, I examine the influence of <i>__cultural and linguistic diversity__</i>, <i>__technological and graph literacy__</i>, and <i>__cognitive ability__</i> on data visualization. I strive to ensure that data visualizations are accessible and comprehensible to a wide audience, regardless of background or ability. 
