@@ -8,14 +8,16 @@ redirect_from:
   - /about.html
 ---
 
-I am a Postdoctoral Researcher in the [Khoury Vis Lab](https://vis.khoury.northeastern.edu) at Northeastern University, working with [Lace Padilla](http://www.lacepadilla.com). I graduated from Arizona State University, supervised by [Chris Bryan](https://chrisbryan.github.io/). I have also interned at the National Renewable Energy Laboratory (NREL).
+I am a Postdoctoral Researcher in the [Khoury Vis Lab](https://vis.khoury.northeastern.edu) at Northeastern University, working with [Lace Padilla](http://www.lacepadilla.com). I graduated from Arizona State University, supervised by [Chris Bryan](https://chrisbryan.github.io/). I have also previously interned at the National Renewable Energy Laboratory (NREL).
 
 
-My research lies at the intersection of <i>__visual cognition__</i>, <i>__natural language__</i>, and <i>__data visualization__</i>.  I focus on creating inclusive data visualizations that democratize both creation and consumption for underrepresented populations. Specifically, I examine the influence of <i>__cultural and linguistic diversity__</i>, <i>__technological and graph literacy__</i>, and <i>__cognitive ability__</i> on data visualization. I strive to ensure that data visualizations are accessible and comprehensible to a wide audience, regardless of background or ability. 
+My research lies at the intersection of <i>__visual cognition__</i>, <i>__natural language__</i>, and <i>__data visualization__</i>.  I focus on creating <ins>inclusive</ins> data visualizations that <ins>democratize</ins>> both creation and consumption for underrepresented populations. Specifically, I examine the influence of <i>__multicultural and linguistic factors__</i>, as well as <i>__cognitive biases__</i>, on how people engage with and make decisions using visualizations. Additionally, I have extensively developed <i>__visual analysis platforms__</i> to support <i>__non-expert__</i> users in developing <i>__large language models__</i> and <i>__engineering prompts in natural language processing__</i>.
 
-My other research interests include decision science, natural language processing, and pedagogy.
+Looking ahead, I am excited to expand my research at the intersection of visualization, decision science, and natural language processing, to develop <i>__data communication paradigms__</i> such as <i>patient decision aids</i>, <i>personalized learning pathways</i>, and <i>risk management frameworks</i>, that empower <ins>low data literacy</ins> populations to take informed decisions.
 
 I am always open to discussing new ideas and potential collaborations. Please feel free to email me to chat!
+
+<ins>__I am currently on the job market, and looking for tenure track positions!__</ins>
 
 News
 ======
@@ -23,6 +25,17 @@ News
 <div style="max-height: 200px; overflow-y:scroll;">
 <table class="table table-striped table-hover table-borderless" style="table-layout:fixed; width: 100%;">
 <tbody>
+    <tr>
+      <td><b>July 2024</b></td>
+      <td>Our submission <i>Mind Drifts, Data Shifts: Utilizing Mind Wandering to Track the Evolution of User Experience with Data Visualizations </i>has been accepted as a full paper in IEEE VIS 2024 </td>
+    </tr>    
+      <td><b>June 2024</b></td>
+      <td>Excited to join <i>Northeastern University</i> as a <i>Post-Doctoral researcher</i> working with Lace Padilla!</td>
+    </tr>    
+    <tr>
+      <td><b>May 2024</b></td>
+      <td>Officially a Doctor! Graduated from Arizona State University!</td>
+    </tr>    
     <tr>
       <td><b>August 2023</b></td>
       <td>Our submission <i>Comparing Collaborative Visualization Behaviors in Desktop and Augmented Reality Environments </i>has been accepted as a full paper in VRST 2023 </td>
@@ -132,6 +145,16 @@ Selected Publications
 
 <div class="container">
   <div class="row">
+    <div class="col-2 my-2">
+      <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2024mindwandering.png" data-holder-rendered="true">
+    </div>
+    <div class="col-10 my-2">
+      Anjana Arunkumar, Lace Padilla, and Chris Bryan.
+      <b>Mind Drifts, Data Shifts: Utilizing Mind Wandering to Track the Evolution of User Experience with Data Visualizations</b>
+      <i> accepted to IEEE VIS 2023</i>.
+      <br/>
+      <a class="link-danger" href="https://arxiv.org/abs/2408.03576" target="_blank">Paper</a> | <a href="https://osf.io/h5awt/">Supplementary Materials</a>
+    </div>
     <div class="col-2 my-2">
       <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2023image.png" data-holder-rendered="true">
     </div>

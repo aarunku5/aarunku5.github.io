@@ -14,6 +14,16 @@ author_profile: true
 <div class="container">
   <div class="row">
     <div class="col-2 my-2">
+      <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2024mindwandering.png" data-holder-rendered="true">
+    </div>
+    <div class="col-10 my-2">
+      Anjana Arunkumar, Lace Padilla, and Chris Bryan.
+      <b>Mind Drifts, Data Shifts: Utilizing Mind Wandering to Track the Evolution of User Experience with Data Visualizations</b>
+      <i> accepted to IEEE VIS 2023</i>.
+      <br/>
+      <a class="link-danger" href="https://arxiv.org/abs/2408.03576" target="_blank">Paper</a> | <a href="https://osf.io/h5awt/">Supplementary Materials</a>
+    </div>
+    <div class="col-2 my-2">
       <img class="border rounded shadow img-fluid" src="/images/papers/kintscher2023comparing.png" data-holder-rendered="true">
     </div>
     <div class="col-10 my-2">
@@ -21,7 +31,7 @@ author_profile: true
       <b>Comparing Collaborative Visualization Behaviors in Desktop and Augmented Reality Environments</b>
       <i> accepted to VRST 2023</i>.
       <br/>
-      <a class="link-danger" href="https://arxiv.org/abs/2307.10571" target="_blank">Paper</a> | <a href="https://github.com/aarunku5/Image-or-Information-Vis-2023">Supplementary Materials</a>
+      <a class="link-danger" href="https://dl.acm.org/doi/10.1145/3611659.3615691" target="_blank">Paper</a> | <a href="https://github.com/svl-at-asu/Exploring-AR-Impact-Paper-Scripts">Supplementary Materials</a>
     </div>
     <div class="col-2 my-2">
       <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2023image.png" data-holder-rendered="true">
@@ -102,6 +112,38 @@ author_profile: true
 
 <div class="container">
   <div class="row">
+    <div class="col-2 my-2">
+      <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2024dsi-1.png" data-holder-rendered="true">
+    </div>
+    <div class="col-10 my-2">
+      Anjana Arunkumar, Daniel Ortiz, and Arun Madapusi.
+      <b>Leveraging Data Visualizations to Mitigate In-Group Bias in Crowdfunding: Promoting Equity and Inclusivity Across Campaigner Demographics</b>
+      <i> accepted to Decision Sciences Institute Annual Conference 2024</i>.
+    </div>
+    <div class="col-2 my-2">
+      <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2024dsi-2.png" data-holder-rendered="true">
+    </div>
+    <div class="col-10 my-2">
+      Anjana Arunkumar, Daniel Ortiz, and Arun Madapusi.
+      <b>Enhancing Trust in Startup Investments: Leveraging Data Visualizations for Unbiased Funding for Female Entrepreneurs</b>
+      <i> accepted to Decision Sciences Institute Annual Conference 2024</i>.
+    </div>
+    <div class="col-2 my-2">
+      <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2024swdsi-2.png" data-holder-rendered="true">
+    </div>
+    <div class="col-10 my-2">
+      Anjana Arunkumar, Daniel Ortiz, and Arun Madapusi.
+      <b>Exploring the Influence of Visual Features and Emotion-driven Perception on Decision Quality in Visualizations</b>
+      <i> accepted to Southwest Decision Sciences Institute Annual Conference 2024</i>.
+    </div>
+    <div class="col-2 my-2">
+      <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2024swdsi-1.png" data-holder-rendered="true">
+    </div>
+    <div class="col-10 my-2">
+      Anjana Arunkumar, Daniel Ortiz, and Arun Madapusi.
+      <b>Exploring Visual Feature Variation and Decision-maker Judgment in Educational Simulation Visualizations: A Theory-based Approach</b>
+      <i> accepted to Southwest Decision Sciences Institute Annual Conference 2024</i>.
+    </div>
     <div class="col-2 my-2">
       <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2023dsi-1.png" data-holder-rendered="true">
     </div>
