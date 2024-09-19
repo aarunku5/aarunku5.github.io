@@ -28,7 +28,8 @@ News
     <tr>
       <td><b>July 2024</b></td>
       <td>Our submission <i>Mind Drifts, Data Shifts: Utilizing Mind Wandering to Track the Evolution of User Experience with Data Visualizations </i>has been accepted as a full paper in IEEE VIS 2024 </td>
-    </tr>    
+    </tr>   
+    <tr> 
       <td><b>June 2024</b></td>
       <td>Excited to join <i>Northeastern University</i> as a <i>Post-Doctoral researcher</i> working with Lace Padilla!</td>
     </tr>    
@@ -151,7 +152,7 @@ Selected Publications
     <div class="col-10 my-2">
       Anjana Arunkumar, Lace Padilla, and Chris Bryan.
       <b>Mind Drifts, Data Shifts: Utilizing Mind Wandering to Track the Evolution of User Experience with Data Visualizations</b>
-      <i> accepted to IEEE VIS 2023</i>.
+      <i> accepted to IEEE VIS 2024</i>.
       <br/>
       <a class="link-danger" href="https://arxiv.org/abs/2408.03576" target="_blank">Paper</a> | <a href="https://osf.io/h5awt/">Supplementary Materials</a>
     </div>
