@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Postdoctoral Researcher in the [Khoury Vis Lab](https://vis.khoury.northeastern.edu) at Northeastern University, working with [Lace Padilla](http://www.lacepadilla.com). I graduated from Arizona State University, supervised by [Chris Bryan](https://chrisbryan.github.io/). I have also previously interned at the National Renewable Energy Laboratory (NREL).
+I am a Postdoctoral Researcher in the [Khoury Vis Lab](https://vis.khoury.northeastern.edu) at Northeastern University, working with [Lace Padilla](http://www.lacepadilla.com). I graduated from Arizona State University, supervised by [Chris Bryan](https://chrisbryan.github.io/), where I was a recipeient of the <i>__Dean's Dissertation Award__</i>. I have also previously interned at the National Renewable Energy Laboratory (NREL).
 
 
 My research lies at the intersection of <i>__visual cognition__</i>, <i>__natural language__</i>, and <i>__data visualization__</i>.  I focus on creating <ins>inclusive</ins> data visualizations that <ins>democratize</ins>> both creation and consumption for underrepresented populations. Specifically, I examine the influence of <i>__multicultural and linguistic factors__</i>, as well as <i>__cognitive biases__</i>, on how people engage with and make decisions using visualizations. Additionally, I have extensively developed <i>__visual analysis platforms__</i> to support <i>__non-expert__</i> users in developing <i>__large language models__</i> and <i>__engineering prompts in natural language processing__</i>.
@@ -25,6 +25,10 @@ News
 <div style="max-height: 200px; overflow-y:scroll;">
 <table class="table table-striped table-hover table-borderless" style="table-layout:fixed; width: 100%;">
 <tbody>
+    <tr>
+      <td><b>Dec 2024</b></td>
+      <td>I received the <i>Dean's Dissertation Award</i> for F24 at Arizona State University!</td>
+    </tr>   
     <tr>
       <td><b>July 2024</b></td>
       <td>Our submission <i>Mind Drifts, Data Shifts: Utilizing Mind Wandering to Track the Evolution of User Experience with Data Visualizations </i>has been accepted as a full paper in IEEE VIS 2024 </td>
