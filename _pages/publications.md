@@ -14,6 +14,26 @@ author_profile: true
 <div class="container">
   <div class="row">
     <div class="col-2 my-2">
+      <img class="border rounded shadow img-fluid" src="/images/papers/arunkumarrecall2025.png" data-holder-rendered="true">
+    </div>
+    <div class="col-10 my-2">
+      Anjana Arunkumar, Lace Padilla, and Chris Bryan.
+      <b>Modeling and Measuring the Chart Communication Recall Process</b>
+      <i> accepted to Eurovis 2025</i>.
+      <!-- <br/>
+      <a class="link-danger" href="https://arxiv.org/abs/2408.03576" target="_blank">Paper</a> | <a href="https://osf.io/h5awt/">Supplementary Materials</a> -->
+    </div>
+    <div class="col-2 my-2">
+      <img class="border rounded shadow img-fluid" src="/images/papers/arunkumarbilingual2025.png" data-holder-rendered="true">
+    </div>
+    <div class="col-10 my-2">
+      Anjana Arunkumar, Lace Padilla, and Chris Bryan.
+      <b>Lost in Translation: How Does Bilingualism Shape Reader Preferences for Annotated Charts?</b>
+      <i> accepted to ACM SIGCHI 2025</i>.
+      <br/>
+      <a class="link-danger" href="https://arxiv.org/pdf/2503.14965" target="_blank">Paper</a> | <a href="https://osf.io/ckdb4/">Supplementary Materials</a>
+    </div>
+    <div class="col-2 my-2">
       <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2024mindwandering.png" data-holder-rendered="true">
     </div>
     <div class="col-10 my-2">
@@ -21,7 +41,7 @@ author_profile: true
       <b>Mind Drifts, Data Shifts: Utilizing Mind Wandering to Track the Evolution of User Experience with Data Visualizations</b>
       <i> accepted to IEEE VIS 2024</i>.
       <br/>
-      <a class="link-danger" href="https://arxiv.org/abs/2408.03576" target="_blank">Paper</a> | <a href="https://osf.io/h5awt/">Supplementary Materials</a>
+      <a class="link-danger" href="https://doi.ieeecomputersociety.org/10.1109/TVCG.2024.3456344" target="_blank">DOI</a> | <a class="link-danger" href="https://arxiv.org/abs/2408.03576" target="_blank">Paper</a> | <a href="https://osf.io/h5awt/">Supplementary Materials</a>
     </div>
     <div class="col-2 my-2">
       <img class="border rounded shadow img-fluid" src="/images/papers/kintscher2023comparing.png" data-holder-rendered="true">
@@ -31,7 +51,7 @@ author_profile: true
       <b>Comparing Collaborative Visualization Behaviors in Desktop and Augmented Reality Environments</b>
       <i> accepted to VRST 2023</i>.
       <br/>
-      <a class="link-danger" href="https://dl.acm.org/doi/10.1145/3611659.3615691" target="_blank">Paper</a> | <a href="https://github.com/svl-at-asu/Exploring-AR-Impact-Paper-Scripts">Supplementary Materials</a>
+      <a class="link-danger" href="https://doi.org/10.1145/3611659.3615691" target="_blank">DOI</a> | <a class="link-danger" href="https://dl.acm.org/doi/10.1145/3611659.3615691" target="_blank">Paper</a> | <a href="https://github.com/svl-at-asu/Exploring-AR-Impact-Paper-Scripts">Supplementary Materials</a>
     </div>
     <div class="col-2 my-2">
       <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2023image.png" data-holder-rendered="true">
@@ -41,7 +61,7 @@ author_profile: true
       <b>Image or Information? Examining the Nature and Impact of Visualization Perceptual Classification</b>
       <i> accepted to IEEE VIS 2023</i>.
       <br/>
-      <a class="link-danger" href="https://arxiv.org/abs/2307.10571" target="_blank">Paper</a> | <a href="https://github.com/aarunku5/Image-or-Information-Vis-2023">Supplementary Materials</a>
+      <a class="link-danger" href="https://doi.org/10.1109/TVCG.2023.3326919" target="_blank">DOI</a> | <a class="link-danger" href="https://arxiv.org/abs/2307.10571" target="_blank">Paper</a> | <a href="https://github.com/aarunku5/Image-or-Information-Vis-2023">Supplementary Materials</a>
     </div>
     <div class="col-2 my-2">
       <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2023lingo.png" data-holder-rendered="true">
@@ -91,7 +111,7 @@ author_profile: true
       <b>Benchmarking generalization via in-context instructions on 1,600+ language tasks</b>
       <i> in press, accepted to EMNLP 2022</i>.
       <br/>
-      <a href="https://aarunku5.github.io/files/wang2022instructions.pdf">arXiv preprint</a>
+      <a class="link-danger" href="https://doi.org/10.18653/v1/2022.emnlp-main.340" target="_blank">DOI</a> | <a href="https://aarunku5.github.io/files/wang2022instructions.pdf">Paper</a>
     </div>    
     <div class="col-2 my-2">
       <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2021leaderboard.png" data-holder-rendered="true">
@@ -112,6 +132,22 @@ author_profile: true
 
 <div class="container">
   <div class="row">
+    <div class="col-2 my-2">
+      <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2025swdsi-2.png" data-holder-rendered="true">
+    </div>
+    <div class="col-10 my-2">
+      Anjana Arunkumar, Daniel Ortiz, and Arun Madapusi.
+      <b>Evaluating Bilingual Engagement: Absorption And Trust In English Vs. Non-English Infographics In Marketing Campaigns</b>
+      <i> accepted to Southwest Decision Sciences Institute Annual Conference 2025</i>.
+    </div>
+    <div class="col-2 my-2">
+      <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2025swdsi-1.png" data-holder-rendered="true">
+    </div>
+    <div class="col-10 my-2">
+      Anjana Arunkumar, Daniel Ortiz, and Arun Madapusi.
+      <b>Optimizing Crowdfunding Equity: Tailoring Data Visualizations To Education Levels For Fairer Campaign Judgments</b>
+      <i> accepted to Southwest Decision Sciences Institute Annual Conference 2025</i>.
+    </div>
     <div class="col-2 my-2">
       <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2024dsi-1.png" data-holder-rendered="true">
     </div>
