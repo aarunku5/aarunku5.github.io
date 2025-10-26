@@ -14,7 +14,7 @@ author_profile: true
 <div class="container">
   <div class="row">
     <div class="col-2 my-2">
-      <img class="border rounded shadow img-fluid" src="/images/papers/arunkumarkraljic2025" data-holder-rendered="true">
+      <img class="border rounded shadow img-fluid" src="/images/papers/arunkumarkraljic2025.png" data-holder-rendered="true">
     </div>
     <div class="col-10 my-2">
       Anjana Arunkumar, Arun Madapusi, Lace Padilla, and Spencer Castro.
@@ -24,7 +24,7 @@ author_profile: true
       <a class="link-danger" href="https://arxiv.org/abs/2408.03576" target="_blank">Paper</a> | <a href="https://osf.io/h5awt/">Supplementary Materials</a> -->
     </div>
     <div class="col-2 my-2">
-      <img class="border rounded shadow img-fluid" src="/images/papers/stokesrecall2025" data-holder-rendered="true">
+      <img class="border rounded shadow img-fluid" src="/images/papers/stokesrecall2025.png" data-holder-rendered="true">
     </div>
     <div class="col-10 my-2">
       Chase Stokes, Anjana Arunkumar, Lace Padilla, and Marti A. Hearst.
