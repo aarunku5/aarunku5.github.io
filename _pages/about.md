@@ -10,10 +10,9 @@ redirect_from:
 
 I am a Postdoctoral Researcher in the [Khoury Vis Lab](https://vis.khoury.northeastern.edu) at Northeastern University, working with [Lace Padilla](http://www.lacepadilla.com). I graduated from Arizona State University, supervised by [Chris Bryan](https://chrisbryan.github.io/), where I was a recipeient of the <i>__Dean's Dissertation Award__</i>. I have also previously interned at the National Renewable Energy Laboratory (NREL).
 
+My research lies at the intersection of <i>__visual cognition__</i>, <i>__artificial intelligence__</i>, and <i>__data visualization__</i>.  I focus on creating <ins>inclusive</ins> data visualizations that <ins>democratize</ins> both creation and consumption for underrepresented populations. Specifically, I examine the influence of <i>__multicultural and linguistic factors__</i>, as well as <i>__cognitive biases__</i>, on how people engage with and make decisions using visualizations. Additionally, I have extensively developed <i>__visual analysis platforms__</i> to support <i>__non-expert__</i> users in developing <i>__large language models__</i> and refining insights gained from <i>__artificial intelligence__</i> agents.
 
-My research lies at the intersection of <i>__visual cognition__</i>, <i>__natural language__</i>, and <i>__data visualization__</i>.  I focus on creating <ins>inclusive</ins> data visualizations that <ins>democratize</ins>> both creation and consumption for underrepresented populations. Specifically, I examine the influence of <i>__multicultural and linguistic factors__</i>, as well as <i>__cognitive biases__</i>, on how people engage with and make decisions using visualizations. Additionally, I have extensively developed <i>__visual analysis platforms__</i> to support <i>__non-expert__</i> users in developing <i>__large language models__</i> and <i>__engineering prompts in natural language processing__</i>.
-
-Looking ahead, I am excited to expand my research at the intersection of visualization, decision science, and natural language processing, to develop <i>__data communication paradigms__</i> such as <i>patient decision aids</i>, <i>personalized learning pathways</i>, and <i>risk management frameworks</i>, that empower <ins>low data literacy</ins> populations to take informed decisions.
+Looking ahead, I am excited to expand my research at the intersection of visualization, decision science, and artificial intelligence, to develop <i>__data communication paradigms__</i> such as <i>patient decision aids</i>, <i>personalized learning pathways</i>, and <i>risk management frameworks</i>, that empower <ins>low data literacy</ins> populations to take informed decisions.
 
 I am always open to discussing new ideas and potential collaborations. Please feel free to email me to chat!
 
@@ -25,6 +24,34 @@ News
 <div style="max-height: 200px; overflow-y:scroll;">
 <table class="table table-striped table-hover table-borderless" style="table-layout:fixed; width: 100%;">
 <tbody>
+    <tr>
+      <td><b>October 2025</b></td>
+      <td>I'm giving an invited talk at Georgia Tech: <i>Democratizing Data Visualization: Bridging Cognition, Accessibility, and Decision-Making</i></td>    
+    </tr>   
+    <tr>
+      <td><b>October 2025</b></td>
+      <td>I'm giving a job talk at the INFORMS 2025 Annual Meeting: <i>Modeling Interpretation in Data Visualization: Bridging Computation, Language, and Decision Making</i></td>    
+    </tr>   
+    <tr>
+      <td><b>August 2025</b></td>
+      <td>Our submission <i>Design-Decision Fit: Modeling How Visualization Quality Mediates Supply Chain Task Performance </i>has been accepted as a full paper at Decision Sciences Institute Annual Conference 2025 </td>    
+    </tr>   
+    <tr>
+      <td><b>August 2025</b></td>
+      <td>Our submission <i>Teaching with Generative AI: Strategies, Systems, and Classroom Practice </i>has been accepted at Decision Sciences Institute Annual Conference 2025 as part of <a href="https://decisionsciences.org/data-analytics-and-statistics-instruction/">DASI</a></td>    
+    </tr>   
+    <tr>
+      <td><b>August 2025</b></td>
+      <td>Our submission <i>Designing for Trust: Source Attribution Effects in AI-Augmented Data Visualization </i>has been accepted at Decision Sciences Institute Annual Conference 2025 as part of <a href="https://decisionsciences.org/dasmalai/">DASMALAI</a></td>    
+    </tr>   
+    <tr>
+      <td><b>June 2025</b></td>
+      <td>Our submission <i>An Analysis of Text Functions in Information Visualization </i>has been accepted as a full paper in IEEE VIS 2025 </td>    
+    </tr>   
+    <tr>
+      <td><b>June 2025</b></td>
+      <td>Our submission <i>The Hue-Man Factor: An Empirical Evaluation of Visualization Perception and Accessibility Across Color Vision Profiles </i>has been accepted as a full paper in IEEE VIS 2025 </td>    
+    </tr>   
     <tr>
       <td><b>March 2025</b></td>
       <td>Our submission <i>Modeling and Measuring the Chart Communication Recall Process </i>has been accepted as a full paper in Eurovis 2025 </td>    
@@ -171,12 +198,22 @@ Selected Publications
 <div class="container">
   <div class="row">
     <div class="col-2 my-2">
+      <img class="border rounded shadow img-fluid" src="/images/papers/stokesrecall2025" data-holder-rendered="true">
+    </div>
+    <div class="col-10 my-2">
+      Chase Stokes, Anjana Arunkumar, Lace Padilla, and Marti A. Hearst.
+      <b>An Analysis of Text Functions in Information Visualization</b>
+      <i> accepted to IEEE Transations on Visualization and Computer Graphics, 2025</i>.
+      <!-- <br/>
+      <a class="link-danger" href="https://arxiv.org/abs/2408.03576" target="_blank">Paper</a> | <a href="https://osf.io/h5awt/">Supplementary Materials</a> -->
+    </div>
+    <div class="col-2 my-2">
       <img class="border rounded shadow img-fluid" src="/images/papers/arunkumarrecall2025.png" data-holder-rendered="true">
     </div>
     <div class="col-10 my-2">
       Anjana Arunkumar, Lace Padilla, and Chris Bryan.
       <b>Modeling and Measuring the Chart Communication Recall Process</b>
-      <i> accepted to Eurovis 2025</i>.
+      <i> accepted to Computer Graphics Forum, 2025</i>.
       <!-- <br/>
       <a class="link-danger" href="https://arxiv.org/abs/2408.03576" target="_blank">Paper</a> | <a href="https://osf.io/h5awt/">Supplementary Materials</a> -->
     </div>
@@ -196,7 +233,7 @@ Selected Publications
     <div class="col-10 my-2">
       Anjana Arunkumar, Lace Padilla, and Chris Bryan.
       <b>Mind Drifts, Data Shifts: Utilizing Mind Wandering to Track the Evolution of User Experience with Data Visualizations</b>
-      <i> accepted to IEEE VIS 2024</i>.
+      <i> accepted to IEEE Transations on Visualization and Computer Graphics, 2024</i>.
       <br/>
       <a class="link-danger" href="https://doi.ieeecomputersociety.org/10.1109/TVCG.2024.3456344" target="_blank">DOI</a> | <a class="link-danger" href="https://arxiv.org/abs/2408.03576" target="_blank">Paper</a> | <a href="https://osf.io/h5awt/">Supplementary Materials</a>
     </div>
@@ -206,7 +243,7 @@ Selected Publications
     <div class="col-10 my-2">
       Anjana Arunkumar, Lace Padilla, Gi-Yeul Bae, and Chris Bryan.
       <b>Image or Information? Examining the Nature and Impact of Visualization Perceptual Classification</b>
-      <i> accepted to IEEE VIS 2023</i>.
+      <i> accepted to IEEE Transations on Visualization and Computer Graphics, 2023</i>.
       <br/>
       <a class="link-danger" href="https://doi.org/10.1109/TVCG.2023.3326919" target="_blank">DOI</a> | <a class="link-danger" href="https://arxiv.org/abs/2307.10571" target="_blank">Paper</a> | <a href="https://github.com/aarunku5/Image-or-Information-Vis-2023">Supplementary Materials</a>
     </div>
@@ -216,7 +253,7 @@ Selected Publications
     <div class="col-10 my-2">
       Anjana Arunkumar, Shubham Sharma, Rakhi Agrawal, Sriram Chandrasekaran, and Chris Bryan.
       <b>LINGO: Visually Debiasing Natural Language Instructions to Support Task Diversity</b>
-      <i>  Computer Graphics Forum, 42.3, 2023</i>.
+      <i>  Computer Graphics Forum, 2023</i>.
       <br/>
       <a class="link-danger" href="https://diglib.eg.org/handle/10.1111/cgf14840" target="_blank">DOI</a> | <a href="https://aarunku5.github.io/files/arunkumar2023lingo.pdf">Paper</a> | <a href="https://www.youtube.com/watch?v=KBKALQlUsKg&list=PLA4becqJ7pe0fHeICflAdTAf-pAWJ77h9&index=2">Video</a>
     </div>
@@ -236,7 +273,7 @@ Selected Publications
     <div class="col-10 my-2">
       Anjana Arunkumar, Andrea Pinceti, Lalitha Sankar, and Chris Bryan.
       <b>PMU Tracker: A Visualization Platform for Epicentric Event Propagation Analysis in the Power Grid</b>
-      <i> in press, accepted to IEEE Vis 2022</i>.
+      <i> in press, accepted to IEEE Transations on Visualization and Computer Graphics, 2022</i>.
       <br/>
       <a class="link-danger" href="https://ieeexplore.ieee.org/abstract/document/9903279" target="_blank">DOI</a> | <a href="https://aarunku5.github.io/files/arunkumar2022pmutracker.pdf">Paper</a>
     </div>
@@ -256,7 +293,7 @@ Selected Publications
     <div class="col-10 my-2">
       Anjana Arunkumar, Shashank Ginjpalli, and Chris Bryan.
       <b>Bayesian Modelling of Alluvial Diagram Complexity</b>
-      <i> accepted to 2021 IEEE Visualization Conference (VIS), pp 51-55, 2021</i>.
+      <i> accepted to IEEE Transations on Visualization and Computer Graphics, 2021</i>.
       <br/>
       <a class="link-danger" href="https://ieeexplore.ieee.org/abstract/document/9623282" target="_blank">DOI</a> | <a href="https://aarunku5.github.io/files/arunkumar2021bayesian.pdf">Paper</a>
     </div> 

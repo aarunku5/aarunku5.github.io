@@ -14,12 +14,42 @@ author_profile: true
 <div class="container">
   <div class="row">
     <div class="col-2 my-2">
+      <img class="border rounded shadow img-fluid" src="/images/papers/arunkumarkraljic2025" data-holder-rendered="true">
+    </div>
+    <div class="col-10 my-2">
+      Anjana Arunkumar, Arun Madapusi, Lace Padilla, and Spencer Castro.
+      <b>Design-Decision Fit: Modeling How Visualization Quality Mediates Supply Chain Task Performance</b>
+      <i> accepted to Decision Sciences Institute Annual Conference 2025</i>.
+      <!-- <br/>
+      <a class="link-danger" href="https://arxiv.org/abs/2408.03576" target="_blank">Paper</a> | <a href="https://osf.io/h5awt/">Supplementary Materials</a> -->
+    </div>
+    <div class="col-2 my-2">
+      <img class="border rounded shadow img-fluid" src="/images/papers/stokesrecall2025" data-holder-rendered="true">
+    </div>
+    <div class="col-10 my-2">
+      Chase Stokes, Anjana Arunkumar, Lace Padilla, and Marti A. Hearst.
+      <b>An Analysis of Text Functions in Information Visualization</b>
+      <i> accepted to IEEE Transations on Visualization and Computer Graphics, 2025</i>.
+      <!-- <br/>
+      <a class="link-danger" href="https://arxiv.org/abs/2408.03576" target="_blank">Paper</a> | <a href="https://osf.io/h5awt/">Supplementary Materials</a> -->
+    </div>
+    <div class="col-2 my-2">
+      <img class="border rounded shadow img-fluid" src="/images/papers/zhuojuncolor2025.png" data-holder-rendered="true">
+    </div>
+    <div class="col-10 my-2">
+      Zhuojun Jiang, Anjana Arunkumar, and Chris Bryan.
+      <b>The Hue-Man Factor: An Empirical Evaluation of Visualization Perception and Accessibility Across Color Vision Profiles</b>
+      <i> accepted to IEEE Transations on Visualization and Computer Graphics, 2025</i>.
+      <!-- <br/>
+      <a class="link-danger" href="https://arxiv.org/abs/2408.03576" target="_blank">Paper</a> | <a href="https://osf.io/h5awt/">Supplementary Materials</a> -->
+    </div>
+    <div class="col-2 my-2">
       <img class="border rounded shadow img-fluid" src="/images/papers/arunkumarrecall2025.png" data-holder-rendered="true">
     </div>
     <div class="col-10 my-2">
       Anjana Arunkumar, Lace Padilla, and Chris Bryan.
       <b>Modeling and Measuring the Chart Communication Recall Process</b>
-      <i> accepted to Eurovis 2025</i>.
+      <i> accepted to Computer Graphics Forum, 2025</i>.
       <!-- <br/>
       <a class="link-danger" href="https://arxiv.org/abs/2408.03576" target="_blank">Paper</a> | <a href="https://osf.io/h5awt/">Supplementary Materials</a> -->
     </div>
@@ -39,7 +69,7 @@ author_profile: true
     <div class="col-10 my-2">
       Anjana Arunkumar, Lace Padilla, and Chris Bryan.
       <b>Mind Drifts, Data Shifts: Utilizing Mind Wandering to Track the Evolution of User Experience with Data Visualizations</b>
-      <i> accepted to IEEE VIS 2024</i>.
+      <i> accepted to IEEE Transations on Visualization and Computer Graphics, 2024</i>.
       <br/>
       <a class="link-danger" href="https://doi.ieeecomputersociety.org/10.1109/TVCG.2024.3456344" target="_blank">DOI</a> | <a class="link-danger" href="https://arxiv.org/abs/2408.03576" target="_blank">Paper</a> | <a href="https://osf.io/h5awt/">Supplementary Materials</a>
     </div>
@@ -59,7 +89,7 @@ author_profile: true
     <div class="col-10 my-2">
       Anjana Arunkumar, Lace Padilla, Gi-Yeul Bae, and Chris Bryan.
       <b>Image or Information? Examining the Nature and Impact of Visualization Perceptual Classification</b>
-      <i> accepted to IEEE VIS 2023</i>.
+      <i> accepted to IEEE Transations on Visualization and Computer Graphics, 2023</i>.
       <br/>
       <a class="link-danger" href="https://doi.org/10.1109/TVCG.2023.3326919" target="_blank">DOI</a> | <a class="link-danger" href="https://arxiv.org/abs/2307.10571" target="_blank">Paper</a> | <a href="https://github.com/aarunku5/Image-or-Information-Vis-2023">Supplementary Materials</a>
     </div>
@@ -89,7 +119,7 @@ author_profile: true
     <div class="col-10 my-2">
       Anjana Arunkumar, Andrea Pinceti, Lalitha Sankar, and Chris Bryan.
       <b>PMU Tracker: A Visualization Platform for Epicentric Event Propagation Analysis in the Power Grid</b>
-      <i> in press, accepted to IEEE Visualization Conference (VIS) 2022</i>.
+      <i> in press, accepted to IEEE Transations on Visualization and Computer Graphics,ualization Conference (VIS) 2022</i>.
       <br/>
       <a class="link-danger" href="https://ieeexplore.ieee.org/abstract/document/9903279" target="_blank">DOI</a> | <a href="https://aarunku5.github.io/files/arunkumar2022pmutracker.pdf">Paper</a>
     </div>
@@ -132,6 +162,22 @@ author_profile: true
 
 <div class="container">
   <div class="row">
+    <div class="col-2 my-2">
+      <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2025dasi.png" data-holder-rendered="true">
+    </div>
+    <div class="col-10 my-2">
+      Anjana Arunkumar and Swaroop Mishra.
+      <b>Teaching with Generative AI: Strategies, Systems, and Classroom Practice</b>
+      <i> accepted to Decision Sciences Institute Annual Conference 2025, <a href="https://decisionsciences.org/data-analytics-and-statistics-instruction/">DASI</a></i>.
+    </div>
+    <div class="col-2 my-2">
+      <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2025dasmalai.png" data-holder-rendered="true">
+    </div>
+    <div class="col-10 my-2">
+      Anjana Arunkumar, Daniel Ortiz, and Arun Madapusi.
+      <b>Designing for Trust: Source Attribution Effects in AI-Augmented Data Visualization</b>
+      <i> accepted to Decision Sciences Institute Annual Conference 2025, <a href="https://decisionsciences.org/dasmalai/">DASMALAI</a></i>.
+    </div>
     <div class="col-2 my-2">
       <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2025swdsi-2.png" data-holder-rendered="true">
     </div>
@@ -253,7 +299,7 @@ author_profile: true
     <div class="col-10 my-2">
       Anjana Arunkumar, Shashank Ginjpalli, and Chris Bryan.
       <b>Bayesian Modelling of Alluvial Diagram Complexity</b>
-      <i> accepted to 2021 IEEE Visualization Conference (VIS), pp 51-55, 2021</i>.
+      <i> accepted to 2021 IEEE Transations on Visualization and Computer Graphics,ualization Conference (VIS), pp 51-55, 2021</i>.
       <br/>
       <a class="link-danger" href="https://ieeexplore.ieee.org/abstract/document/9623282" target="_blank">DOI</a> | <a href="https://aarunku5.github.io/files/arunkumar2021bayesian.pdf">Paper</a>
     </div> 
@@ -299,7 +345,7 @@ author_profile: true
     <div class="col-10 my-2">
       Anjana Arunkumar, Swaroop Mishra, and Chris Bryan.
       <b>A Visual Exploration of Fair Evaluation for ML - Bridging the Gap Between Research and the Real World</b>
-      <i> accepted to Visualization for AI Explainability (VISxAI workshop), IEEE Visualization Conference (VIS) 2020 </i>.
+      <i> accepted to Visualization for AI Explainability (VISxAI workshop), IEEE Transations on Visualization and Computer Graphics,ualization Conference (VIS) 2020 </i>.
       <br/>
       <a class="link-danger" href="https://visxai.io/2020.html">Workshop Site</a> | <a href="https://aarunku5.github.io/files/arunkumar2021visxai/index.html">Data Story</a> | <a class="link-danger" href="https://aarunku5.github.io/files/arunkumar2021leaderboard.pdf" target="_blank">Base Paper</a>
     </div> 
@@ -309,7 +355,7 @@ author_profile: true
     <div class="col-10 my-2">
       Jinbin Huang, Aditi Mishra, Anjana Arunkumar, and Chris Bryan. 
       <b>TotemFinder: A Visual Analytics Approach for Image-based Key Players Identification</b>
-      <i> accepted to VAST Challenge, IEEE Visualization Conference (VIS) 2020 </i>.
+      <i> accepted to VAST Challenge, IEEE Transations on Visualization and Computer Graphics,ualization Conference (VIS) 2020 </i>.
       <br/>
       <a class="link-danger" href="https://vast-challenge.github.io/2020/" target="_blank">Contest Site</a> | <a href="https://aarunku5.github.io/files/huang2020totemfinder.pdf">Short Paper</a> | <a class="link-danger" href="https://github.com/JakobWong/VAST2020">Code Repository</a> | <b style="color:green;">Honorable Mention : Effective Use of Visual Encodings for Correcting Classification Errors</b>
     </div> 
