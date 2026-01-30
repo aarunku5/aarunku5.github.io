@@ -25,6 +25,10 @@ News
 <table class="table table-striped table-hover table-borderless" style="table-layout:fixed; width: 100%;">
 <tbody>
     <tr>
+      <td><b>Dec 2025</b></td>
+      <td>Our submissions <i>Examining Adaptive Visualization Approaches for Supply Chain Resilience and UAV-Enabled Logistics, </i> and <i>Examining the Effects of Task-Design Fit on Decision Quality in Supply Chain Analytics</i> have been accepted to Southwest Decision Sciences Institute Annual Conference 2026 </td>
+    </tr>    
+    <tr>
       <td><b>October 2025</b></td>
       <td>I'm giving an invited talk at Georgia Tech: <i>Democratizing Data Visualization: Bridging Cognition, Accessibility, and Decision-Making</i></td>    
     </tr>   

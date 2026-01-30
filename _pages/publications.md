@@ -163,6 +163,22 @@ author_profile: true
 <div class="container">
   <div class="row">
     <div class="col-2 my-2">
+      <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2026swdsi-2.png" data-holder-rendered="true">
+    </div>
+    <div class="col-10 my-2">
+      Anjana Arunkumar, Daniel Ortiz, and Arun Madapusi.
+      <b>Examining Adaptive Visualization Approaches for Supply Chain Resilience and UAV-Enabled Logistics</b>
+      <i> accepted to Southwest Decision Sciences Institute Annual Conference 2026</i>.
+    </div>
+    <div class="col-2 my-2">
+      <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2026swdsi-1.png" data-holder-rendered="true">
+    </div>
+    <div class="col-10 my-2">
+      Anjana Arunkumar, Daniel Ortiz, and Arun Madapusi.
+      <b>Examining the Effects of Task-Design Fit on Decision Quality in Supply Chain Analytics</b>
+      <i> accepted to Southwest Decision Sciences Institute Annual Conference 2026</i>.
+    </div>
+    <div class="col-2 my-2">
       <img class="border rounded shadow img-fluid" src="/images/papers/arunkumar2025dasi.png" data-holder-rendered="true">
     </div>
     <div class="col-10 my-2">
