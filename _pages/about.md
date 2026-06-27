@@ -22,6 +22,10 @@ News
 <table class="table table-striped table-hover table-borderless" style="table-layout:fixed; width: 100%;">
 <tbody>
     <tr>
+      <td><b>June 2026</b></td>
+      <td>Excited to join <i>BespokeLabs.ai</i> as a <i>MTS</i>!</td>
+    </tr>    
+    <tr>
       <td><b>May 2026</b></td>
       <td>Our full paper <i>Engagement vs. Understanding: Comparing Immersive Virtual Reality and Desktop Displays for Climate Data Visualization</i> has won an <b>Honorable Mention</b> at Eurovis 2026!</td>
     </tr>    
