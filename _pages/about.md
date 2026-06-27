@@ -7,16 +7,13 @@ redirect_from:
   - /about/
   - /about.html
 ---
+I am a Member of Technical Staff at [Bespoke Labs](https://bespokelabs.ai/), where I work on visualization and evaluation tooling for the data and environments used to train AI agents, alongside applied research and engineering on customer-facing AI projects. Previously, I was a Postdoctoral Researcher in the Khoury Vis Lab at Northeastern University, working with [Lace Padilla](http://www.lacepadilla.com). I graduated from Arizona State University, supervised by [Chris Bryan](https://chrisbryan.github.io/), where I was a recipient of the <i>__Dean's Dissertation Award__</i>. I have also previously interned at the National Renewable Energy Laboratory (NREL).
 
-I am a Postdoctoral Researcher in the [Khoury Vis Lab](https://vis.khoury.northeastern.edu) at Northeastern University, working with [Lace Padilla](http://www.lacepadilla.com). I graduated from Arizona State University, supervised by [Chris Bryan](https://chrisbryan.github.io/), where I was a recipient of the <i>__Dean's Dissertation Award__</i>. I have also previously interned at the National Renewable Energy Laboratory (NREL).
+My research lies at the intersection of visual cognition, artificial intelligence, and data visualization. I focus on creating inclusive data visualizations that democratize both creation and consumption for underrepresented populations. Specifically, I examine the influence of multicultural and linguistic factors, as well as cognitive biases, on how people engage with and make decisions using visualizations. I have also extensively developed visual analysis platforms to support experts and non-expert users in curating training data, evaluating large language models, and refining insights gained from artificial intelligence agents.
 
-My research lies at the intersection of <i>__visual cognition__</i>, <i>__artificial intelligence__</i>, and <i>__data visualization__</i>.  I focus on creating <ins>inclusive</ins> data visualizations that <ins>democratize</ins> both creation and consumption for underrepresented populations. Specifically, I examine the influence of <i>__multicultural and linguistic factors__</i>, as well as <i>__cognitive biases__</i>, on how people engage with and make decisions using visualizations. Additionally, I have extensively developed <i>__visual analysis platforms__</i> to support <i>__non-expert__</i> users in developing <i>__large language models__</i> and refining insights gained from <i>__artificial intelligence__</i> agents.
-
-Looking ahead, I am excited to expand my research at the intersection of visualization, decision science, and artificial intelligence, to develop <i>__data communication paradigms__</i> such as <i>patient decision aids</i>, <i>personalized learning pathways</i>, and <i>risk management frameworks</i>, that empower <ins>low data literacy</ins> populations to take informed decisions.
+At Bespoke Labs, I am extending this line of work to the data and environments that drive modern AI systems — building tools that surface quality, diversity, and reliability signals during data and environment creation, and applying visualization and evaluation methodology to applied AI engineering for enterprise and research customers. More broadly, I am excited to continue developing data communication and evaluation paradigms that bridge visual cognition research with applied AI, and that empower diverse user populations to make informed decisions.
 
 I am always open to discussing new ideas and potential collaborations. Please feel free to email me to chat!
-
-<ins>__I am currently on the job market, and looking for tenure track positions!__</ins>
 
 News
 ======
@@ -24,6 +21,18 @@ News
 <div style="max-height: 200px; overflow-y:scroll;">
 <table class="table table-striped table-hover table-borderless" style="table-layout:fixed; width: 100%;">
 <tbody>
+    <tr>
+      <td><b>May 2026</b></td>
+      <td>Our full paper <i>Engagement vs. Understanding: Comparing Immersive Virtual Reality and Desktop Displays for Climate Data Visualization</i> has won an <b>Honorable Mention</b> at Eurovis 2026!</td>
+    </tr>    
+    <tr>
+      <td><b>Apr 2026</b></td>
+      <td>Our submission <i>Evaluating Cluster Dendrograms for Spatiotemporal Anomaly Tracking</i> has been accepted has been accepted as a short paper in Eurovis 2026 </td>
+    </tr>    
+    <tr>
+      <td><b>Mar 2026</b></td>
+      <td>Our submission <i>Engagement vs. Understanding: Comparing Immersive Virtual Reality and Desktop Displays for Climate Data Visualization</i> has been accepted has been accepted as a full paper in Eurovis 2026 </td>
+    </tr>    
     <tr>
       <td><b>Dec 2025</b></td>
       <td>Our submissions <i>Examining Adaptive Visualization Approaches for Supply Chain Resilience and UAV-Enabled Logistics, </i> and <i>Examining the Effects of Task-Design Fit on Decision Quality in Supply Chain Analytics</i> have been accepted to Southwest Decision Sciences Institute Annual Conference 2026 </td>
