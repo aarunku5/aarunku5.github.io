@@ -211,6 +211,17 @@ Selected Publications
 <div class="container">
   <div class="row">
     <div class="col-2 my-2">
+      <img class="border rounded shadow img-fluid" src="/images/papers/arunkumarvr2026.png" data-holder-rendered="true">
+    </div>
+    <div class="col-10 my-2">
+      Anjana Arunkumar, Jaimie Liu, and Chris Bryan.
+      <b>Engagement vs. Understanding: Comparing Immersive Virtual Reality and Desktop Displays for Climate Data Visualization</b>
+      <i> accepted to Computer Graphics Forum, 2026</i>.
+      <br/>
+      <a class="link-danger" href="https://onlinelibrary.wiley.com/doi/10.1111/cgf.70432" target="_blank">Paper</a> 
+      <!-- | <a href="https://osf.io/h5awt/">Supplementary Materials</a> -->
+    </div>
+    <div class="col-2 my-2">
       <img class="border rounded shadow img-fluid" src="/images/papers/stokesrecall2025.png" data-holder-rendered="true">
     </div>
     <div class="col-10 my-2">
